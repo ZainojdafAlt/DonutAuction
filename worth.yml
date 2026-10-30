@@ -66,33 +66,33 @@ TYPE:
   # Configuration section for Crops.
   CROPS:
     # The decimal value for Wheat. Available options: Any decimal number
-    WHEAT: 51.0
+    WHEAT: 2760.31
     # The decimal value for Beetroot. Available options: Any decimal number
-    BEETROOT: 3.0
+    BEETROOT: 2500.0
     # The decimal value for Carrot. Available options: Any decimal number
-    CARROT: 16.0
+    CARROT: 1835.94
     # The decimal value for Potato. Available options: Any decimal number
-    POTATO: 16.0
+    POTATO: 765.62
     # The decimal value for Poisonous Potato. Available options: Any decimal number
-    POISONOUS_POTATO: 32.0
+    POISONOUS_POTATO: 10256.41
     # The decimal value for Melon. Available options: Any decimal number
-    MELON: 150.0
+    MELON: 26562.5
     # The decimal value for Pumpkin. Available options: Any decimal number
-    PUMPKIN: 200.0
+    PUMPKIN: 781.25
     # The decimal value for Bamboo. Available options: Any decimal number
     BAMBOO: 300.0
     # The decimal value for Cocoa Beans. Available options: Any decimal number
-    COCOA_BEANS: 200.0
+    COCOA_BEANS: 669.27
     # The decimal value for Cactus. Available options: Any decimal number
-    CACTUS: 200.0
+    CACTUS: 265.5
     # The decimal value for Sweet Berries. Available options: Any decimal number
     SWEET_BERRIES: 400.0
     # The decimal value for Sugar Cane. Available options: Any decimal number
     SUGAR_CANE: 200.0
     # The decimal value for Red Mushroom. Available options: Any decimal number
-    RED_MUSHROOM: 56.0
+    RED_MUSHROOM: 14000.0
     # The decimal value for Brown Mushroom. Available options: Any decimal number
-    BROWN_MUSHROOM: 1.0
+    BROWN_MUSHROOM: 5750.0
     # The decimal value for Kelp. Available options: Any decimal number
     KELP: 500.0
     # The decimal value for Sea Pickle. Available options: Any decimal number
@@ -100,21 +100,21 @@ TYPE:
     # The decimal value for Glow Berries. Available options: Any decimal number
     GLOW_BERRIES: 4.0
     # The decimal value for Wheat Seeds. Available options: Any decimal number
-    WHEAT_SEEDS: 2.0
+    WHEAT_SEEDS: 389.84
     # The decimal value for Pumpkin Seeds. Available options: Any decimal number
-    PUMPKIN_SEEDS: 8.0
+    PUMPKIN_SEEDS: 2109.38
     # The decimal value for Melon Seeds. Available options: Any decimal number
-    MELON_SEEDS: 4.0
+    MELON_SEEDS: 6192.12
     # The decimal value for Beetroot Seeds. Available options: Any decimal number
-    BEETROOT_SEEDS: 2.0
+    BEETROOT_SEEDS: 7837500.0
     # The decimal value for Torchflower Seeds. Available options: Any decimal number
     TORCHFLOWER_SEEDS: 3.0
     # The decimal value for Torchflower. Available options: Any decimal number
     TORCHFLOWER: 4.0
     # The decimal value for Nether Wart. Available options: Any decimal number
-    NETHER_WART: 6.0
+    NETHER_WART: 1493.38
     # The decimal value for Spruce Sapling. Available options: Any decimal number
-    SPRUCE_SAPLING: 3.0
+    SPRUCE_SAPLING: 12507.81
     # The decimal value for Twisting Vines. Available options: Any decimal number
     TWISTING_VINES: 5.0
     # The decimal value for Nether Sprouts. Available options: Any decimal number
@@ -122,19 +122,19 @@ TYPE:
     # The decimal value for Crimson Fungus. Available options: Any decimal number
     CRIMSON_FUNGUS: 2.0
     # The decimal value for Bone Meal. Available options: Any decimal number
-    BONE_MEAL: 1000.0
+    BONE_MEAL: 436.72
     # The decimal value for Jungle Sapling. Available options: Any decimal number
-    JUNGLE_SAPLING: 3.0
+    JUNGLE_SAPLING: 125078.12
     # The decimal value for Birch Sapling. Available options: Any decimal number
-    BIRCH_SAPLING: 3.0
+    BIRCH_SAPLING: 6212.12
     # The decimal value for Oak Sapling. Available options: Any decimal number
-    OAK_SAPLING: 3.0
+    OAK_SAPLING: 12310.86
     # The decimal value for Cherry Sapling. Available options: Any decimal number
     CHERRY_SAPLING: 3.0
     # The decimal value for Dark Oak Sapling. Available options: Any decimal number
-    DARK_OAK_SAPLING: 3.0
+    DARK_OAK_SAPLING: 3109.38
     # The decimal value for Acacia Sapling. Available options: Any decimal number
-    ACACIA_SAPLING: 3.0
+    ACACIA_SAPLING: 5199375.0
     # The decimal value for Warped Fungus. Available options: Any decimal number
     WARPED_FUNGUS: 3.0
     # The decimal value for Hanging Roots. Available options: Any decimal number
@@ -150,9 +150,9 @@ TYPE:
     # The decimal value for Weeping Vines. Available options: Any decimal number
     WEEPING_VINES: 5.0
     # The decimal value for Chorus Flower. Available options: Any decimal number
-    CHORUS_FLOWER: 3.0
+    CHORUS_FLOWER: 18333.33
     # The decimal value for Chorus Fruit. Available options: Any decimal number
-    CHORUS_FRUIT: 6.0
+    CHORUS_FRUIT: 625.0
     # The decimal value for Big Dripleaf. Available options: Any decimal number
     BIG_DRIPLEAF: 3.0
     # The decimal value for Small Dripleaf. Available options: Any decimal number
@@ -166,11 +166,11 @@ TYPE:
   # Configuration section for Ores.
   ORES:
     # The decimal value for Coal Ore. Available options: Any decimal number
-    COAL_ORE: 20.0
+    COAL_ORE: 1398.44
     # The decimal value for Deepslate Coal Ore. Available options: Any decimal number
     DEEPSLATE_COAL_ORE: 46.0
     # The decimal value for Iron Ore. Available options: Any decimal number
-    IRON_ORE: 16.0
+    IRON_ORE: 5237.5
     # The decimal value for Deepslate Iron Ore. Available options: Any decimal number
     DEEPSLATE_IRON_ORE: 40.0
     # The decimal value for Copper Ore. Available options: Any decimal number
@@ -178,19 +178,19 @@ TYPE:
     # The decimal value for Deepslate Copper Ore. Available options: Any decimal number
     DEEPSLATE_COPPER_ORE: 50.0
     # The decimal value for Gold Ore. Available options: Any decimal number
-    GOLD_ORE: 20.0
+    GOLD_ORE: 47575.75
     # The decimal value for Deepslate Gold Ore. Available options: Any decimal number
     DEEPSLATE_GOLD_ORE: 50.0
     # The decimal value for Redstone Ore. Available options: Any decimal number
-    REDSTONE_ORE: 3.0
+    REDSTONE_ORE: 23125.0
     # The decimal value for Deepslate Redstone Ore. Available options: Any decimal number
     DEEPSLATE_REDSTONE_ORE: 8.0
     # The decimal value for Emerald Ore. Available options: Any decimal number
-    EMERALD_ORE: 20.0
+    EMERALD_ORE: 37000.0
     # The decimal value for Deepslate Emerald Ore. Available options: Any decimal number
     DEEPSLATE_EMERALD_ORE: 50.0
     # The decimal value for Lapis Ore. Available options: Any decimal number
-    LAPIS_ORE: 4.0
+    LAPIS_ORE: 40599.5
     # The decimal value for Deepslate Lapis Ore. Available options: Any decimal number
     DEEPSLATE_LAPIS_ORE: 10.0
     # The decimal value for Deepslate Diamond Ore. Available options: Any decimal number
@@ -200,43 +200,43 @@ TYPE:
     # The decimal value for Nether Quartz Ore. Available options: Any decimal number
     NETHER_QUARTZ_ORE: 5.0
     # The decimal value for Diamond Ore. Available options: Any decimal number
-    DIAMOND_ORE: 100.0
+    DIAMOND_ORE: 236500.0
     # The decimal value for Diamond Block. Available options: Any decimal number
-    DIAMOND_BLOCK: 1100.0
+    DIAMOND_BLOCK: 95000.0
     # The decimal value for Netherite Block. Available options: Any decimal number
     NETHERITE_BLOCK: 360000000.0
     # The decimal value for Emerald Block. Available options: Any decimal number
-    EMERALD_BLOCK: 2300.5
+    EMERALD_BLOCK: 29950.0
     # The decimal value for Redstone Block. Available options: Any decimal number
-    REDSTONE_BLOCK: 800.0
+    REDSTONE_BLOCK: 5099.5
     # The decimal value for Iron Block. Available options: Any decimal number
-    IRON_BLOCK: 4500.0
+    IRON_BLOCK: 34062.5
     # The decimal value for Lapis Block. Available options: Any decimal number
-    LAPIS_BLOCK: 1800.0
+    LAPIS_BLOCK: 14263.16
     # The decimal value for Gold Block. Available options: Any decimal number
-    GOLD_BLOCK: 45000.0
+    GOLD_BLOCK: 89950.0
     # The decimal value for Copper Block. Available options: Any decimal number
     COPPER_BLOCK: 270.0
     # The decimal value for Charcoal. Available options: Any decimal number
-    CHARCOAL: 8.0
+    CHARCOAL: 296.88
     # The decimal value for Coal. Available options: Any decimal number
-    COAL: 120.0
+    COAL: 394.53
     # The decimal value for Raw Iron. Available options: Any decimal number
     RAW_IRON: 40.0
     # The decimal value for Raw Gold. Available options: Any decimal number
     RAW_GOLD: 300.0
     # The decimal value for Diamond. Available options: Any decimal number
-    DIAMOND: 5600.0
+    DIAMOND: 12450.0
     # The decimal value for Quartz. Available options: Any decimal number
-    QUARTZ: 34.5
+    QUARTZ: 7362.0
     # The decimal value for Raw Copper. Available options: Any decimal number
     RAW_COPPER: 30.0
     # The decimal value for Iron Ingot. Available options: Any decimal number
-    IRON_INGOT: 500.0
+    IRON_INGOT: 3976.56
     # The decimal value for Copper Ingot. Available options: Any decimal number
     COPPER_INGOT: 30.0
     # The decimal value for Gold Ingot. Available options: Any decimal number
-    GOLD_INGOT: 5000.0
+    GOLD_INGOT: 24350.0
     # The decimal value for Netherite Ingot. Available options: Any decimal number
     NETHERITE_INGOT: 40000000.0
     # The decimal value for Amethyst Cluster. Available options: Any decimal number
@@ -252,23 +252,23 @@ TYPE:
     # The decimal value for Echo Shard. Available options: Any decimal number
     ECHO_SHARD: 3000.0
     # The decimal value for Clay Ball. Available options: Any decimal number
-    CLAY_BALL: 2.0
+    CLAY_BALL: 312.5
     # The decimal value for Lapis Lazuli. Available options: Any decimal number
-    LAPIS_LAZULI: 8.0
+    LAPIS_LAZULI: 625.0
     # The decimal value for Iron Nugget. Available options: Any decimal number
-    IRON_NUGGET: 0.5
+    IRON_NUGGET: 1228.3
     # The decimal value for Gold Nugget. Available options: Any decimal number
-    GOLD_NUGGET: 0.5
+    GOLD_NUGGET: 1420.47
     # The decimal value for Ancient Debris. Available options: Any decimal number
     ANCIENT_DEBRIS: 8000000.0
     # The decimal value for Netherite Scrap. Available options: Any decimal number
     NETHERITE_SCRAP: 8000000.0
     # The decimal value for Glowstone Dust. Available options: Any decimal number
-    GLOWSTONE_DUST: 1.0
+    GLOWSTONE_DUST: 4947.14
     # The decimal value for Redstone. Available options: Any decimal number
-    REDSTONE: 50.0
+    REDSTONE: 2272.0
     # The decimal value for Brick. Available options: Any decimal number
-    BRICK: 5.0
+    BRICK: 149179.69
     # The decimal value for Tuff Slab. Available options: Any decimal number
     TUFF_SLAB: 4.0
     # The decimal value for Tuff Stairs. Available options: Any decimal number
@@ -298,111 +298,111 @@ TYPE:
   # Configuration section for Mobs.
   MOBS:
     # The decimal value for Feather. Available options: Any decimal number
-    FEATHER: 6.0
+    FEATHER: 850.19
     # The decimal value for String. Available options: Any decimal number
-    STRING: 0.5
+    STRING: 687.5
     # The decimal value for Cooked Chicken. Available options: Any decimal number
-    COOKED_CHICKEN: 8.0
+    COOKED_CHICKEN: 1210.94
     # The decimal value for Chicken. Available options: Any decimal number
-    CHICKEN: 6.0
+    CHICKEN: 2031.25
     # The decimal value for Glow Ink Sac. Available options: Any decimal number
     GLOW_INK_SAC: 150.0
     # The decimal value for Beef. Available options: Any decimal number
-    BEEF: 5.0
+    BEEF: 4296.88
     # The decimal value for Cooked Beef. Available options: Any decimal number
-    COOKED_BEEF: 3.5
+    COOKED_BEEF: 7172.0
     # The decimal value for Leather. Available options: Any decimal number
-    LEATHER: 40.0
+    LEATHER: 8132.81
     # The decimal value for Cooked Cod. Available options: Any decimal number
-    COOKED_COD: 2.0
+    COOKED_COD: 2904.06
     # The decimal value for Cod. Available options: Any decimal number
-    COD: 6.0
+    COD: 3507.81
     # The decimal value for Porkchop. Available options: Any decimal number
-    PORKCHOP: 5.0
+    PORKCHOP: 1015.62
     # The decimal value for Cooked Porkchop. Available options: Any decimal number
-    COOKED_PORKCHOP: 7.0
+    COOKED_PORKCHOP: 251.56
     # The decimal value for Pufferfish. Available options: Any decimal number
-    PUFFERFISH: 5.0
+    PUFFERFISH: 17187.0
     # The decimal value for Rabbit Hide. Available options: Any decimal number
-    RABBIT_HIDE: 5.0
+    RABBIT_HIDE: 2700.0
     # The decimal value for Cooked Rabbit. Available options: Any decimal number
-    COOKED_RABBIT: 20.0
+    COOKED_RABBIT: 49255.95
     # The decimal value for Rabbit. Available options: Any decimal number
-    RABBIT: 6.0
+    RABBIT: 18761.91
     # The decimal value for Cooked Salmon. Available options: Any decimal number
-    COOKED_SALMON: 2.0
+    COOKED_SALMON: 3625.09
     # The decimal value for Salmon. Available options: Any decimal number
-    SALMON: 6.0
+    SALMON: 153515.62
     # The decimal value for Mutton. Available options: Any decimal number
-    MUTTON: 4.0
+    MUTTON: 10062.5
     # The decimal value for Cooked Mutton. Available options: Any decimal number
-    COOKED_MUTTON: 3.0
+    COOKED_MUTTON: 5519.16
     # The decimal value for Bone. Available options: Any decimal number
-    BONE: 3.0
+    BONE: 312.5
     # The decimal value for Snowball. Available options: Any decimal number
-    SNOWBALL: 0.25
+    SNOWBALL: 1031.25
     # The decimal value for Ink Sac. Available options: Any decimal number
-    INK_SAC: 50.0
+    INK_SAC: 2539.06
     # The decimal value for Tropical Fish. Available options: Any decimal number
-    TROPICAL_FISH: 1.0
+    TROPICAL_FISH: 3125.0
     # The decimal value for Seagrass. Available options: Any decimal number
     SEAGRASS: 2.0
     # The decimal value for Rotten Flesh. Available options: Any decimal number
-    ROTTEN_FLESH: 1.0
+    ROTTEN_FLESH: 703.12
     # The decimal value for Spider Eye. Available options: Any decimal number
-    SPIDER_EYE: 0.5
+    SPIDER_EYE: 1914.06
     # The decimal value for Ender Pearl. Available options: Any decimal number
-    ENDER_PEARL: 2.0
+    ENDER_PEARL: 262.41
     # The decimal value for Poppy. Available options: Any decimal number
-    POPPY: 1.0
+    POPPY: 8546.88
     # The decimal value for Blaze Rod. Available options: Any decimal number
-    BLAZE_ROD: 2.0
+    BLAZE_ROD: 1182.81
     # The decimal value for Prismarine Shard. Available options: Any decimal number
-    PRISMARINE_SHARD: 5.0
+    PRISMARINE_SHARD: 1411.56
     # The decimal value for Prismarine Crystals. Available options: Any decimal number
-    PRISMARINE_CRYSTALS: 7.0
+    PRISMARINE_CRYSTALS: 9523.44
     # The decimal value for Wet Sponge. Available options: Any decimal number
-    WET_SPONGE: 400.0
+    WET_SPONGE: 350000.0
     # The decimal value for Tide Armor Trim Smithing Template. Available options: Any decimal number
     TIDE_ARMOR_TRIM_SMITHING_TEMPLATE: 75.0
     # The decimal value for Totem Of Undying. Available options: Any decimal number
-    TOTEM_OF_UNDYING: 250.0
+    TOTEM_OF_UNDYING: 72045.0
     # The decimal value for Emerald. Available options: Any decimal number
-    EMERALD: 8.0
+    EMERALD: 23950.0
     # The decimal value for Ghast Tear. Available options: Any decimal number
-    GHAST_TEAR: 30.0
+    GHAST_TEAR: 49250.0
     # The decimal value for Gunpowder. Available options: Any decimal number
-    GUNPOWDER: 1.0
+    GUNPOWDER: 699.22
     # The decimal value for Magma Cream. Available options: Any decimal number
-    MAGMA_CREAM: 6.0
+    MAGMA_CREAM: 42500.0
     # The decimal value for Phantom Membrane. Available options: Any decimal number
     PHANTOM_MEMBRANE: 5.0
     # The decimal value for Arrow. Available options: Any decimal number
-    ARROW: 1.0
+    ARROW: 452.33
     # The decimal value for Saddle. Available options: Any decimal number
-    SADDLE: 500.0
+    SADDLE: 27500.0
     # The decimal value for Shulker Shell. Available options: Any decimal number
-    SHULKER_SHELL: 50.0
+    SHULKER_SHELL: 4531.19
     # The decimal value for Slime Ball. Available options: Any decimal number
-    SLIME_BALL: 4.0
+    SLIME_BALL: 429.69
     # The decimal value for Baked Potato. Available options: Any decimal number
-    BAKED_POTATO: 28.0
+    BAKED_POTATO: 1328.12
     # The decimal value for Fishing Rod. Available options: Any decimal number
-    FISHING_ROD: 8.0
+    FISHING_ROD: 160500.0
   # Configuration section for Natural.
   NATURAL:
     # The decimal value for Oak Log. Available options: Any decimal number
-    OAK_LOG: 16.0
+    OAK_LOG: 1037.5
     # The decimal value for Spruce Log. Available options: Any decimal number
-    SPRUCE_LOG: 16.0
+    SPRUCE_LOG: 92.97
     # The decimal value for Birch Log. Available options: Any decimal number
-    BIRCH_LOG: 16.0
+    BIRCH_LOG: 766.28
     # The decimal value for Jungle Log. Available options: Any decimal number
-    JUNGLE_LOG: 16.0
+    JUNGLE_LOG: 3500.0
     # The decimal value for Acacia Log. Available options: Any decimal number
-    ACACIA_LOG: 16.0
+    ACACIA_LOG: 158529.0
     # The decimal value for Dark Oak Log. Available options: Any decimal number
-    DARK_OAK_LOG: 16.0
+    DARK_OAK_LOG: 1561.72
     # The decimal value for Crimson Stem. Available options: Any decimal number
     CRIMSON_STEM: 16.0
     # The decimal value for Warped Stem. Available options: Any decimal number
@@ -456,47 +456,47 @@ TYPE:
     # The decimal value for Stripped Warped Hyphae. Available options: Any decimal number
     STRIPPED_WARPED_HYPHAE: 16.0
     # The decimal value for Oak Leaves. Available options: Any decimal number
-    OAK_LEAVES: 3.0
+    OAK_LEAVES: 546.09
     # The decimal value for Spruce Leaves. Available options: Any decimal number
-    SPRUCE_LEAVES: 3.0
+    SPRUCE_LEAVES: 1507.81
     # The decimal value for Birch Leaves. Available options: Any decimal number
-    BIRCH_LEAVES: 3.0
+    BIRCH_LEAVES: 2942.77
     # The decimal value for Jungle Leaves. Available options: Any decimal number
-    JUNGLE_LEAVES: 3.0
+    JUNGLE_LEAVES: 1671.86
     # The decimal value for Acacia Leaves. Available options: Any decimal number
-    ACACIA_LEAVES: 3.0
+    ACACIA_LEAVES: 8905.47
     # The decimal value for Dark Oak Leaves. Available options: Any decimal number
-    DARK_OAK_LEAVES: 3.0
+    DARK_OAK_LEAVES: 41406.25
     # The decimal value for Nether Wart Block. Available options: Any decimal number
-    NETHER_WART_BLOCK: 14.0
+    NETHER_WART_BLOCK: 3515.62
     # The decimal value for Warped Wart Block. Available options: Any decimal number
     WARPED_WART_BLOCK: 4.0
     # The decimal value for Grass Block. Available options: Any decimal number
-    GRASS_BLOCK: 4.0
+    GRASS_BLOCK: 1475.78
     # The decimal value for Fern. Available options: Any decimal number
-    FERN: 1.0
+    FERN: 2343.75
     # The decimal value for Dead Bush. Available options: Any decimal number
-    DEAD_BUSH: 8.0
+    DEAD_BUSH: 20312.5
     # The decimal value for Dandelion. Available options: Any decimal number
     DANDELION: 1.0
     # The decimal value for Blue Orchid. Available options: Any decimal number
-    BLUE_ORCHID: 1.0
+    BLUE_ORCHID: 92500.0
     # The decimal value for Pink Petals. Available options: Any decimal number
     PINK_PETALS: 2.0
     # The decimal value for Allium. Available options: Any decimal number
-    ALLIUM: 1.0
+    ALLIUM: 40826.8
     # The decimal value for Azure Bluet. Available options: Any decimal number
-    AZURE_BLUET: 1.0
+    AZURE_BLUET: 1796.0
     # The decimal value for Red Tulip. Available options: Any decimal number
-    RED_TULIP: 1.0
+    RED_TULIP: 2335.94
     # The decimal value for Orange Tulip. Available options: Any decimal number
-    ORANGE_TULIP: 1.0
+    ORANGE_TULIP: 4687.5
     # The decimal value for White Tulip. Available options: Any decimal number
-    WHITE_TULIP: 1.0
+    WHITE_TULIP: 9053.03
     # The decimal value for Pink Tulip. Available options: Any decimal number
-    PINK_TULIP: 1.0
+    PINK_TULIP: 46080.52
     # The decimal value for Oxeye Daisy. Available options: Any decimal number
-    OXEYE_DAISY: 1.0
+    OXEYE_DAISY: 32600.0
     # The decimal value for Cornflower. Available options: Any decimal number
     CORNFLOWER: 1.0
     # The decimal value for Azalea Leaves. Available options: Any decimal number
@@ -542,31 +542,31 @@ TYPE:
     # The decimal value for Brown Dye. Available options: Any decimal number
     BROWN_DYE: 1.0
     # The decimal value for Light Blue Dye. Available options: Any decimal number
-    LIGHT_BLUE_DYE: 1.0
+    LIGHT_BLUE_DYE: 3500.0
     # The decimal value for Gray Dye. Available options: Any decimal number
-    GRAY_DYE: 1.0
+    GRAY_DYE: 909.41
     # The decimal value for Cyan Dye. Available options: Any decimal number
-    CYAN_DYE: 1.0
+    CYAN_DYE: 3528.03
     # The decimal value for Green Dye. Available options: Any decimal number
-    GREEN_DYE: 80.0
+    GREEN_DYE: 703.12
     # The decimal value for Light Gray Dye. Available options: Any decimal number
-    LIGHT_GRAY_DYE: 1.0
+    LIGHT_GRAY_DYE: 33102.84
     # The decimal value for Yellow Dye. Available options: Any decimal number
-    YELLOW_DYE: 1.0
+    YELLOW_DYE: 421.09
     # The decimal value for White Dye. Available options: Any decimal number
     WHITE_DYE: 1.0
     # The decimal value for Red Dye. Available options: Any decimal number
-    RED_DYE: 1.0
+    RED_DYE: 781.25
     # The decimal value for Purple Dye. Available options: Any decimal number
-    PURPLE_DYE: 1.0
+    PURPLE_DYE: 3125.0
     # The decimal value for Pink Dye. Available options: Any decimal number
-    PINK_DYE: 1.0
+    PINK_DYE: 1132.81
     # The decimal value for Orange Dye. Available options: Any decimal number
-    ORANGE_DYE: 1.0
+    ORANGE_DYE: 3515.62
     # The decimal value for Magenta Dye. Available options: Any decimal number
-    MAGENTA_DYE: 1.0
+    MAGENTA_DYE: 859.38
     # The decimal value for Lime Dye. Available options: Any decimal number
-    LIME_DYE: 1.0
+    LIME_DYE: 2265.62
     # The decimal value for Large Fern. Available options: Any decimal number
     LARGE_FERN: 2.0
     # The decimal value for Spore Blossom. Available options: Any decimal number
@@ -612,7 +612,7 @@ TYPE:
     # The decimal value for Dead Tube Coral Fan. Available options: Any decimal number
     DEAD_TUBE_CORAL_FAN: 8.0
     # The decimal value for Sea Lantern. Available options: Any decimal number
-    SEA_LANTERN: 110.0
+    SEA_LANTERN: 46500.0
     # The decimal value for Shroomlight. Available options: Any decimal number
     SHROOMLIGHT: 4.0
     # The decimal value for Honeycomb Block. Available options: Any decimal number
@@ -654,57 +654,57 @@ TYPE:
   # Configuration section for Armor And Tools.
   ARMOR_AND_TOOLS:
     # The decimal value for Diamond Shovel. Available options: Any decimal number
-    DIAMOND_SHOVEL: 50.0
+    DIAMOND_SHOVEL: 45000.0
     # The decimal value for Diamond Pickaxe. Available options: Any decimal number
-    DIAMOND_PICKAXE: 50.0
+    DIAMOND_PICKAXE: 34800.0
     # The decimal value for Diamond Axe. Available options: Any decimal number
-    DIAMOND_AXE: 50.0
+    DIAMOND_AXE: 47400.0
     # The decimal value for Diamond Hoe. Available options: Any decimal number
-    DIAMOND_HOE: 50.0
+    DIAMOND_HOE: 26050.0
     # The decimal value for Diamond Sword. Available options: Any decimal number
-    DIAMOND_SWORD: 50.0
+    DIAMOND_SWORD: 52499.0
     # The decimal value for Diamond Helmet. Available options: Any decimal number
-    DIAMOND_HELMET: 45.0
+    DIAMOND_HELMET: 55000.0
     # The decimal value for Diamond Chestplate. Available options: Any decimal number
-    DIAMOND_CHESTPLATE: 60.0
+    DIAMOND_CHESTPLATE: 60000.0
     # The decimal value for Diamond Leggings. Available options: Any decimal number
-    DIAMOND_LEGGINGS: 52.5
+    DIAMOND_LEGGINGS: 60000.0
     # The decimal value for Diamond Boots. Available options: Any decimal number
-    DIAMOND_BOOTS: 37.5
+    DIAMOND_BOOTS: 56500.0
     # The decimal value for Chainmail Helmet. Available options: Any decimal number
-    CHAINMAIL_HELMET: 20.0
+    CHAINMAIL_HELMET: 55000.0
     # The decimal value for Chainmail Chestplate. Available options: Any decimal number
-    CHAINMAIL_CHESTPLATE: 20.0
+    CHAINMAIL_CHESTPLATE: 325000.0
     # The decimal value for Chainmail Leggings. Available options: Any decimal number
-    CHAINMAIL_LEGGINGS: 20.0
+    CHAINMAIL_LEGGINGS: 75000.0
     # The decimal value for Chainmail Boots. Available options: Any decimal number
-    CHAINMAIL_BOOTS: 20.0
+    CHAINMAIL_BOOTS: 37500.0
     # The decimal value for Leather Horse Armor. Available options: Any decimal number
     LEATHER_HORSE_ARMOR: 15.0
     # The decimal value for Iron Horse Armor. Available options: Any decimal number
-    IRON_HORSE_ARMOR: 100.0
+    IRON_HORSE_ARMOR: 507450.0
     # The decimal value for Golden Horse Armor. Available options: Any decimal number
-    GOLDEN_HORSE_ARMOR: 300.0
+    GOLDEN_HORSE_ARMOR: 30900.0
     # The decimal value for Diamond Horse Armor. Available options: Any decimal number
-    DIAMOND_HORSE_ARMOR: 500.0
+    DIAMOND_HORSE_ARMOR: 64000.0
     # The decimal value for Iron Shovel. Available options: Any decimal number
-    IRON_SHOVEL: 7.5
+    IRON_SHOVEL: 62500.0
     # The decimal value for Iron Pickaxe. Available options: Any decimal number
-    IRON_PICKAXE: 7.5
+    IRON_PICKAXE: 25700.0
     # The decimal value for Iron Axe. Available options: Any decimal number
-    IRON_AXE: 7.5
+    IRON_AXE: 72500.0
     # The decimal value for Iron Hoe. Available options: Any decimal number
-    IRON_HOE: 15.0
+    IRON_HOE: 92500.0
     # The decimal value for Iron Sword. Available options: Any decimal number
-    IRON_SWORD: 15.0
+    IRON_SWORD: 30000.0
     # The decimal value for Iron Helmet. Available options: Any decimal number
-    IRON_HELMET: 35.0
+    IRON_HELMET: 199500.0
     # The decimal value for Iron Chestplate. Available options: Any decimal number
-    IRON_CHESTPLATE: 35.0
+    IRON_CHESTPLATE: 150000.0
     # The decimal value for Iron Leggings. Available options: Any decimal number
-    IRON_LEGGINGS: 35.0
+    IRON_LEGGINGS: 50000.0
     # The decimal value for Iron Boots. Available options: Any decimal number
-    IRON_BOOTS: 35.0
+    IRON_BOOTS: 32500.0
     # The decimal value for Netherite Shovel. Available options: Any decimal number
     NETHERITE_SHOVEL: 1500000.0
     # The decimal value for Netherite Pickaxe. Available options: Any decimal number
@@ -724,91 +724,91 @@ TYPE:
     # The decimal value for Netherite Boots. Available options: Any decimal number
     NETHERITE_BOOTS: 8000000.0
     # The decimal value for Golden Shovel. Available options: Any decimal number
-    GOLDEN_SHOVEL: 16.0
+    GOLDEN_SHOVEL: 749000.0
     # The decimal value for Golden Pickaxe. Available options: Any decimal number
-    GOLDEN_PICKAXE: 16.0
+    GOLDEN_PICKAXE: 200000.0
     # The decimal value for Golden Axe. Available options: Any decimal number
-    GOLDEN_AXE: 16.0
+    GOLDEN_AXE: 125000.0
     # The decimal value for Golden Sword. Available options: Any decimal number
-    GOLDEN_SWORD: 16.0
+    GOLDEN_SWORD: 52500.0
     # The decimal value for Golden Hoe. Available options: Any decimal number
-    GOLDEN_HOE: 16.0
+    GOLDEN_HOE: 300000.0
     # The decimal value for Golden Helmet. Available options: Any decimal number
-    GOLDEN_HELMET: 45.0
+    GOLDEN_HELMET: 199500.0
     # The decimal value for Golden Chestplate. Available options: Any decimal number
-    GOLDEN_CHESTPLATE: 45.0
+    GOLDEN_CHESTPLATE: 130000.0
     # The decimal value for Golden Leggings. Available options: Any decimal number
-    GOLDEN_LEGGINGS: 45.0
+    GOLDEN_LEGGINGS: 52500.0
     # The decimal value for Golden Boots. Available options: Any decimal number
-    GOLDEN_BOOTS: 45.0
+    GOLDEN_BOOTS: 110000.0
     # The decimal value for Bow. Available options: Any decimal number
-    BOW: 7.0
+    BOW: 24500.0
     # The decimal value for Crossbow. Available options: Any decimal number
     CROSSBOW: 7.5
     # The decimal value for Lead. Available options: Any decimal number
-    LEAD: 5.0
+    LEAD: 18224.25
     # The decimal value for Compass. Available options: Any decimal number
-    COMPASS: 30.0
+    COMPASS: 35000.0
     # The decimal value for Recovery Compass. Available options: Any decimal number
     RECOVERY_COMPASS: 50.0
     # The decimal value for Shears. Available options: Any decimal number
-    SHEARS: 4.0
+    SHEARS: 5000.0
     # The decimal value for Brush. Available options: Any decimal number
     BRUSH: 3.0
     # The decimal value for Flint And Steel. Available options: Any decimal number
-    FLINT_AND_STEEL: 6.0
+    FLINT_AND_STEEL: 9250.0
     # The decimal value for Elytra. Available options: Any decimal number
-    ELYTRA: 430000000.0
+    ELYTRA: 353500000.0
     # The decimal value for Firework Rocket. Available options: Any decimal number
     FIREWORK_ROCKET: 30.0
     # The decimal value for Clock. Available options: Any decimal number
-    CLOCK: 25.0
+    CLOCK: 22083.33
     # The decimal value for Spyglass. Available options: Any decimal number
     SPYGLASS: 50.0
     # The decimal value for Wooden Shovel. Available options: Any decimal number
-    WOODEN_SHOVEL: 10.0
+    WOODEN_SHOVEL: 175000.0
     # The decimal value for Wooden Pickaxe. Available options: Any decimal number
-    WOODEN_PICKAXE: 10.0
+    WOODEN_PICKAXE: 544000.0
     # The decimal value for Wooden Axe. Available options: Any decimal number
-    WOODEN_AXE: 10.0
+    WOODEN_AXE: 150000.0
     # The decimal value for Wooden Hoe. Available options: Any decimal number
-    WOODEN_HOE: 10.0
+    WOODEN_HOE: 150000.0
     # The decimal value for Wooden Sword. Available options: Any decimal number
-    WOODEN_SWORD: 10.0
+    WOODEN_SWORD: 87500.0
     # The decimal value for Stone Pickaxe. Available options: Any decimal number
-    STONE_PICKAXE: 14.0
+    STONE_PICKAXE: 11150.0
     # The decimal value for Stone Axe. Available options: Any decimal number
-    STONE_AXE: 14.0
+    STONE_AXE: 35000.0
     # The decimal value for Stone Sword. Available options: Any decimal number
-    STONE_SWORD: 14.0
+    STONE_SWORD: 17500.0
     # The decimal value for Stone Hoe. Available options: Any decimal number
-    STONE_HOE: 14.0
+    STONE_HOE: 650000.0
     # The decimal value for Stone Shovel. Available options: Any decimal number
-    STONE_SHOVEL: 14.0
+    STONE_SHOVEL: 125000.0
     # The decimal value for Leather Boots. Available options: Any decimal number
-    LEATHER_BOOTS: 10.0
+    LEATHER_BOOTS: 25000.0
     # The decimal value for Leather Leggings. Available options: Any decimal number
-    LEATHER_LEGGINGS: 10.0
+    LEATHER_LEGGINGS: 249500.0
     # The decimal value for Leather Chestplate. Available options: Any decimal number
-    LEATHER_CHESTPLATE: 10.0
+    LEATHER_CHESTPLATE: 375000.0
     # The decimal value for Leather Helmet. Available options: Any decimal number
-    LEATHER_HELMET: 10.0
+    LEATHER_HELMET: 124500.0
     # The decimal value for Turtle Helmet. Available options: Any decimal number
     TURTLE_HELMET: 200.0
     # The decimal value for Trident. Available options: Any decimal number
     TRIDENT: 10000.0
     # The decimal value for Armor Stand. Available options: Any decimal number
-    ARMOR_STAND: 20.0
+    ARMOR_STAND: 445.08
     # The decimal value for Bucket. Available options: Any decimal number
-    BUCKET: 15.0
+    BUCKET: 3125.0
     # The decimal value for Milk Bucket. Available options: Any decimal number
-    MILK_BUCKET: 60.0
+    MILK_BUCKET: 237700.0
     # The decimal value for Powder Snow Bucket. Available options: Any decimal number
     POWDER_SNOW_BUCKET: 5.0
     # The decimal value for Lava Bucket. Available options: Any decimal number
-    LAVA_BUCKET: 60.0
+    LAVA_BUCKET: 8099.0
     # The decimal value for Water Bucket. Available options: Any decimal number
-    WATER_BUCKET: 50.0
+    WATER_BUCKET: 3947.0
     # The decimal value for Sentry Armor Trim Smithing Template. Available options: Any decimal number
     SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE: 250.0
     # The decimal value for Vex Armor Trim Smithing Template. Available options: Any decimal number
@@ -940,7 +940,7 @@ TYPE:
     # The decimal value for Heart Of The Sea. Available options: Any decimal number
     HEART_OF_THE_SEA: 400.0
     # The decimal value for Name Tag. Available options: Any decimal number
-    NAME_TAG: 200.0
+    NAME_TAG: 16936.0
     # The decimal value for Nautilus Shell. Available options: Any decimal number
     NAUTILUS_SHELL: 100.0
     # The decimal value for Lily Pad. Available options: Any decimal number
@@ -952,11 +952,11 @@ TYPE:
     # The decimal value for Book. Available options: Any decimal number
     BOOK: 15.0
     # The decimal value for Writable Book. Available options: Any decimal number
-    WRITABLE_BOOK: 15.0
+    WRITABLE_BOOK: 68440.0
     # The decimal value for Written Book. Available options: Any decimal number
-    WRITTEN_BOOK: 6.0
+    WRITTEN_BOOK: 99000.0
     # The decimal value for Enchanted Book. Available options: Any decimal number
-    ENCHANTED_BOOK: 15.0
+    ENCHANTED_BOOK: 11800.0
     # The text or value for Enchanted Book. Available options: Any valid string text
     ENCHANTED_BOOK:SHARPNESS:1: 300.0
     # The text or value for Enchanted Book. Available options: Any valid string text
@@ -1216,13 +1216,13 @@ TYPE:
   # Configuration section for Potion.
   POTION:
     # The decimal value for Potion. Available options: Any decimal number
-    POTION: 10.0
+    POTION: 19500.0
     # The decimal value for Splash Potion. Available options: Any decimal number
-    SPLASH_POTION: 13.0
+    SPLASH_POTION: 12900.0
     # The decimal value for Lingering Potion. Available options: Any decimal number
-    LINGERING_POTION: 14.0
+    LINGERING_POTION: 50000.0
     # The decimal value for Tipped Arrow. Available options: Any decimal number
-    TIPPED_ARROW: 1.2
+    TIPPED_ARROW: 44950.0
     # The text or value for Potion. Available options: Any valid string text
     POTION:SWIFTNESS: 10.0
     # The text or value for Potion. Available options: Any valid string text
@@ -1400,19 +1400,19 @@ TYPE:
   # Configuration section for Blocks.
   BLOCKS:
     # The decimal value for Stone. Available options: Any decimal number
-    STONE: 4.0
+    STONE: 350.0
     # The decimal value for Granite. Available options: Any decimal number
-    GRANITE: 4.0
+    GRANITE: 505.45
     # The decimal value for Polished Granite. Available options: Any decimal number
-    POLISHED_GRANITE: 8.0
+    POLISHED_GRANITE: 1575.09
     # The decimal value for Diorite. Available options: Any decimal number
-    DIORITE: 4.0
+    DIORITE: 494.42
     # The decimal value for Polished Diorite. Available options: Any decimal number
-    POLISHED_DIORITE: 8.0
+    POLISHED_DIORITE: 2414.06
     # The decimal value for Andesite. Available options: Any decimal number
-    ANDESITE: 4.0
+    ANDESITE: 2734.38
     # The decimal value for Polished Andesite. Available options: Any decimal number
-    POLISHED_ANDESITE: 8.0
+    POLISHED_ANDESITE: 7812.5
     # The decimal value for Deepslate. Available options: Any decimal number
     DEEPSLATE: 4.0
     # The decimal value for Cobbled Deepslate. Available options: Any decimal number
@@ -1426,7 +1426,7 @@ TYPE:
     # The decimal value for Dripstone Block. Available options: Any decimal number
     DRIPSTONE_BLOCK: 6.0
     # The decimal value for Dirt. Available options: Any decimal number
-    DIRT: 4.0
+    DIRT: 692.19
     # The decimal value for Coarse Dirt. Available options: Any decimal number
     COARSE_DIRT: 6.0
     # The decimal value for Podzol. Available options: Any decimal number
@@ -1440,21 +1440,21 @@ TYPE:
     # The decimal value for Warped Nylium. Available options: Any decimal number
     WARPED_NYLIUM: 1.0
     # The decimal value for Cobblestone. Available options: Any decimal number
-    COBBLESTONE: 3.0
+    COBBLESTONE: 85.16
     # The decimal value for Oak Planks. Available options: Any decimal number
-    OAK_PLANKS: 4.0
+    OAK_PLANKS: 7812.5
     # The decimal value for Spruce Planks. Available options: Any decimal number
-    SPRUCE_PLANKS: 4.0
+    SPRUCE_PLANKS: 218.75
     # The decimal value for Birch Planks. Available options: Any decimal number
-    BIRCH_PLANKS: 4.0
+    BIRCH_PLANKS: 5078.12
     # The decimal value for Jungle Planks. Available options: Any decimal number
-    JUNGLE_PLANKS: 4.0
+    JUNGLE_PLANKS: 3000.0
     # The decimal value for Acacia Planks. Available options: Any decimal number
-    ACACIA_PLANKS: 4.0
+    ACACIA_PLANKS: 5312.5
     # The decimal value for Cherry Planks. Available options: Any decimal number
     CHERRY_PLANKS: 4.0
     # The decimal value for Dark Oak Planks. Available options: Any decimal number
-    DARK_OAK_PLANKS: 4.0
+    DARK_OAK_PLANKS: 1849.25
     # The decimal value for Mangrove Planks. Available options: Any decimal number
     MANGROVE_PLANKS: 4.0
     # The decimal value for Bamboo Planks. Available options: Any decimal number
@@ -1466,17 +1466,17 @@ TYPE:
     # The decimal value for Bamboo Mosaic. Available options: Any decimal number
     BAMBOO_MOSAIC: 1.0
     # The decimal value for Sand. Available options: Any decimal number
-    SAND: 550.0
+    SAND: 509.38
     # The decimal value for Suspicious Sand. Available options: Any decimal number
     SUSPICIOUS_SAND: 1.0
     # The decimal value for Suspicious Gravel. Available options: Any decimal number
     SUSPICIOUS_GRAVEL: 1.0
     # The decimal value for Red Sand. Available options: Any decimal number
-    RED_SAND: 4.0
+    RED_SAND: 539.06
     # The decimal value for Gravel. Available options: Any decimal number
-    GRAVEL: 336.5
+    GRAVEL: 953.12
     # The decimal value for Coal Block. Available options: Any decimal number
-    COAL_BLOCK: 110.0
+    COAL_BLOCK: 3890.62
     # The decimal value for Raw Iron Block. Available options: Any decimal number
     RAW_IRON_BLOCK: 360.0
     # The decimal value for Raw Copper Block. Available options: Any decimal number
@@ -1592,71 +1592,71 @@ TYPE:
     # The decimal value for Mangrove Wood. Available options: Any decimal number
     MANGROVE_WOOD: 6.0
     # The decimal value for Sponge. Available options: Any decimal number
-    SPONGE: 500.0
+    SPONGE: 375000.0
     # The decimal value for Glass. Available options: Any decimal number
-    GLASS: 20.0
+    GLASS: 1202.34
     # The decimal value for Tinted Glass. Available options: Any decimal number
     TINTED_GLASS: 20.0
     # The decimal value for Sandstone. Available options: Any decimal number
-    SANDSTONE: 4.0
+    SANDSTONE: 2382.81
     # The decimal value for Chiseled Sandstone. Available options: Any decimal number
     CHISELED_SANDSTONE: 4.5
     # The decimal value for Cut Sandstone. Available options: Any decimal number
-    CUT_SANDSTONE: 4.0
+    CUT_SANDSTONE: 1367.19
     # The decimal value for Cobweb. Available options: Any decimal number
     COBWEB: 3.0
     # The decimal value for Short Grass. Available options: Any decimal number
     SHORT_GRASS: 1.0
     # The decimal value for White Wool. Available options: Any decimal number
-    WHITE_WOOL: 4.0
+    WHITE_WOOL: 1126.56
     # The decimal value for Orange Wool. Available options: Any decimal number
-    ORANGE_WOOL: 4.0
+    ORANGE_WOOL: 4054.69
     # The decimal value for Magenta Wool. Available options: Any decimal number
-    MAGENTA_WOOL: 4.0
+    MAGENTA_WOOL: 2734.38
     # The decimal value for Light Blue Wool. Available options: Any decimal number
-    LIGHT_BLUE_WOOL: 4.0
+    LIGHT_BLUE_WOOL: 9328.12
     # The decimal value for Yellow Wool. Available options: Any decimal number
-    YELLOW_WOOL: 4.0
+    YELLOW_WOOL: 3468.75
     # The decimal value for Lime Wool. Available options: Any decimal number
-    LIME_WOOL: 4.0
+    LIME_WOOL: 4017.86
     # The decimal value for Pink Wool. Available options: Any decimal number
-    PINK_WOOL: 4.0
+    PINK_WOOL: 7812.5
     # The decimal value for Gray Wool. Available options: Any decimal number
-    GRAY_WOOL: 4.0
+    GRAY_WOOL: 4373.72
     # The decimal value for Light Gray Wool. Available options: Any decimal number
-    LIGHT_GRAY_WOOL: 4.0
+    LIGHT_GRAY_WOOL: 9687.5
     # The decimal value for Cyan Wool. Available options: Any decimal number
-    CYAN_WOOL: 4.0
+    CYAN_WOOL: 5468.75
     # The decimal value for Purple Wool. Available options: Any decimal number
-    PURPLE_WOOL: 4.0
+    PURPLE_WOOL: 3683.03
     # The decimal value for Blue Wool. Available options: Any decimal number
-    BLUE_WOOL: 4.0
+    BLUE_WOOL: 4271.25
     # The decimal value for Brown Wool. Available options: Any decimal number
-    BROWN_WOOL: 4.0
+    BROWN_WOOL: 8070.31
     # The decimal value for Green Wool. Available options: Any decimal number
-    GREEN_WOOL: 4.0
+    GREEN_WOOL: 7031.27
     # The decimal value for Red Wool. Available options: Any decimal number
-    RED_WOOL: 4.0
+    RED_WOOL: 2320.31
     # The decimal value for Black Wool. Available options: Any decimal number
-    BLACK_WOOL: 4.0
+    BLACK_WOOL: 8820.31
     # The decimal value for Moss Carpet. Available options: Any decimal number
     MOSS_CARPET: 1.0
     # The decimal value for Moss Block. Available options: Any decimal number
     MOSS_BLOCK: 2.0
     # The decimal value for Oak Slab. Available options: Any decimal number
-    OAK_SLAB: 4.0
+    OAK_SLAB: 592.97
     # The decimal value for Spruce Slab. Available options: Any decimal number
-    SPRUCE_SLAB: 4.0
+    SPRUCE_SLAB: 78.12
     # The decimal value for Birch Slab. Available options: Any decimal number
-    BIRCH_SLAB: 4.0
+    BIRCH_SLAB: 1141.5
     # The decimal value for Jungle Slab. Available options: Any decimal number
-    JUNGLE_SLAB: 4.0
+    JUNGLE_SLAB: 78281.25
     # The decimal value for Acacia Slab. Available options: Any decimal number
-    ACACIA_SLAB: 4.0
+    ACACIA_SLAB: 156666.67
     # The decimal value for Cherry Slab. Available options: Any decimal number
     CHERRY_SLAB: 4.0
     # The decimal value for Dark Oak Slab. Available options: Any decimal number
-    DARK_OAK_SLAB: 4.0
+    DARK_OAK_SLAB: 8554.69
     # The decimal value for Mangrove Slab. Available options: Any decimal number
     MANGROVE_SLAB: 4.0
     # The decimal value for Bamboo Slab. Available options: Any decimal number
@@ -1668,21 +1668,21 @@ TYPE:
     # The decimal value for Warped Slab. Available options: Any decimal number
     WARPED_SLAB: 4.0
     # The decimal value for Stone Slab. Available options: Any decimal number
-    STONE_SLAB: 4.0
+    STONE_SLAB: 1111.56
     # The decimal value for Smooth Stone Slab. Available options: Any decimal number
     SMOOTH_STONE_SLAB: 4.0
     # The decimal value for Sandstone Slab. Available options: Any decimal number
-    SANDSTONE_SLAB: 4.0
+    SANDSTONE_SLAB: 1484.38
     # The decimal value for Cut Sandstone Slab. Available options: Any decimal number
-    CUT_SANDSTONE_SLAB: 4.0
+    CUT_SANDSTONE_SLAB: 5078.12
     # The decimal value for Petrified Oak Slab. Available options: Any decimal number
     PETRIFIED_OAK_SLAB: 4.0
     # The decimal value for Cobblestone Slab. Available options: Any decimal number
-    COBBLESTONE_SLAB: 4.0
+    COBBLESTONE_SLAB: 170.31
     # The decimal value for Brick Slab. Available options: Any decimal number
     BRICK_SLAB: 4.0
     # The decimal value for Stone Brick Slab. Available options: Any decimal number
-    STONE_BRICK_SLAB: 4.0
+    STONE_BRICK_SLAB: 8750.0
     # The decimal value for Mud Brick Slab. Available options: Any decimal number
     MUD_BRICK_SLAB: 4.0
     # The decimal value for Nether Brick Slab. Available options: Any decimal number
@@ -1690,11 +1690,11 @@ TYPE:
     # The decimal value for Quartz Slab. Available options: Any decimal number
     QUARTZ_SLAB: 4.0
     # The decimal value for Red Sandstone Slab. Available options: Any decimal number
-    RED_SANDSTONE_SLAB: 4.0
+    RED_SANDSTONE_SLAB: 21881.19
     # The decimal value for Cut Red Sandstone Slab. Available options: Any decimal number
-    CUT_RED_SANDSTONE_SLAB: 4.0
+    CUT_RED_SANDSTONE_SLAB: 780468.75
     # The decimal value for Purpur Slab. Available options: Any decimal number
-    PURPUR_SLAB: 3.0
+    PURPUR_SLAB: 157193.39
     # The decimal value for Prismarine Slab. Available options: Any decimal number
     PRISMARINE_SLAB: 4.0
     # The decimal value for Prismarine Brick Slab. Available options: Any decimal number
@@ -1704,7 +1704,7 @@ TYPE:
     # The decimal value for Smooth Quartz. Available options: Any decimal number
     SMOOTH_QUARTZ: 2.0
     # The decimal value for Smooth Red Sandstone. Available options: Any decimal number
-    SMOOTH_RED_SANDSTONE: 4.0
+    SMOOTH_RED_SANDSTONE: 70312.5
     # The decimal value for Smooth Sandstone. Available options: Any decimal number
     SMOOTH_SANDSTONE: 4.0
     # The decimal value for Smooth Stone. Available options: Any decimal number
@@ -1712,57 +1712,57 @@ TYPE:
     # The decimal value for Bricks. Available options: Any decimal number
     BRICKS: 5.0
     # The decimal value for Bookshelf. Available options: Any decimal number
-    BOOKSHELF: 100.0
+    BOOKSHELF: 15450.0
     # The decimal value for Chiseled Bookshelf. Available options: Any decimal number
     CHISELED_BOOKSHELF: 40.0
     # The decimal value for Mossy Cobblestone. Available options: Any decimal number
-    MOSSY_COBBLESTONE: 8.0
+    MOSSY_COBBLESTONE: 1398.44
     # The decimal value for Obsidian. Available options: Any decimal number
-    OBSIDIAN: 10.0
+    OBSIDIAN: 882.03
     # The decimal value for Torch. Available options: Any decimal number
-    TORCH: 2.0
+    TORCH: 382.81
     # The decimal value for End Rod. Available options: Any decimal number
-    END_ROD: 6.0
+    END_ROD: 3281.25
     # The decimal value for Purpur Block. Available options: Any decimal number
-    PURPUR_BLOCK: 3.0
+    PURPUR_BLOCK: 5443.0
     # The decimal value for Purpur Pillar. Available options: Any decimal number
-    PURPUR_PILLAR: 3.0
+    PURPUR_PILLAR: 3601.19
     # The decimal value for Purpur Stairs. Available options: Any decimal number
-    PURPUR_STAIRS: 3.0
+    PURPUR_STAIRS: 132812.5
     # The decimal value for Chest. Available options: Any decimal number
-    CHEST: 32.0
+    CHEST: 2332.03
     # The decimal value for Crafting Table. Available options: Any decimal number
-    CRAFTING_TABLE: 8.0
+    CRAFTING_TABLE: 6000.0
     # The decimal value for Furnace. Available options: Any decimal number
-    FURNACE: 3.0
+    FURNACE: 257.81
     # The decimal value for Ladder. Available options: Any decimal number
-    LADDER: 5.0
+    LADDER: 20257.81
     # The decimal value for Cobblestone Stairs. Available options: Any decimal number
     COBBLESTONE_STAIRS: 4.0
     # The decimal value for Snow. Available options: Any decimal number
-    SNOW: 3.0
+    SNOW: 1588.55
     # The decimal value for Ice. Available options: Any decimal number
-    ICE: 6.0
+    ICE: 8483.59
     # The decimal value for Snow Block. Available options: Any decimal number
     SNOW_BLOCK: 3.0
     # The decimal value for Clay. Available options: Any decimal number
-    CLAY: 8.0
+    CLAY: 1007.81
     # The decimal value for Jukebox. Available options: Any decimal number
-    JUKEBOX: 100.0
+    JUKEBOX: 74950.0
     # The decimal value for Oak Fence. Available options: Any decimal number
     OAK_FENCE: 4.0
     # The decimal value for Spruce Fence. Available options: Any decimal number
-    SPRUCE_FENCE: 4.0
+    SPRUCE_FENCE: 1046.88
     # The decimal value for Birch Fence. Available options: Any decimal number
-    BIRCH_FENCE: 4.0
+    BIRCH_FENCE: 15599.42
     # The decimal value for Jungle Fence. Available options: Any decimal number
-    JUNGLE_FENCE: 4.0
+    JUNGLE_FENCE: 23437.5
     # The decimal value for Acacia Fence. Available options: Any decimal number
-    ACACIA_FENCE: 4.0
+    ACACIA_FENCE: 15625.0
     # The decimal value for Cherry Fence. Available options: Any decimal number
     CHERRY_FENCE: 4.0
     # The decimal value for Dark Oak Fence. Available options: Any decimal number
-    DARK_OAK_FENCE: 4.0
+    DARK_OAK_FENCE: 5851.56
     # The decimal value for Mangrove Fence. Available options: Any decimal number
     MANGROVE_FENCE: 4.0
     # The decimal value for Bamboo Fence. Available options: Any decimal number
@@ -1776,9 +1776,9 @@ TYPE:
     # The decimal value for Jack O Lantern. Available options: Any decimal number
     JACK_O_LANTERN: 30.0
     # The decimal value for Netherrack. Available options: Any decimal number
-    NETHERRACK: 3.0
+    NETHERRACK: 1625.0
     # The decimal value for Soul Sand. Available options: Any decimal number
-    SOUL_SAND: 3.0
+    SOUL_SAND: 851.56
     # The decimal value for Soul Soil. Available options: Any decimal number
     SOUL_SOIL: 4.0
     # The decimal value for Basalt. Available options: Any decimal number
@@ -1790,7 +1790,7 @@ TYPE:
     # The decimal value for Soul Torch. Available options: Any decimal number
     SOUL_TORCH: 8.0
     # The decimal value for Glowstone. Available options: Any decimal number
-    GLOWSTONE: 3.0
+    GLOWSTONE: 7495.0
     # The decimal value for Infested Stone. Available options: Any decimal number
     INFESTED_STONE: 4.0
     # The decimal value for Infested Cobblestone. Available options: Any decimal number
@@ -1806,13 +1806,13 @@ TYPE:
     # The decimal value for Infested Deepslate. Available options: Any decimal number
     INFESTED_DEEPSLATE: 4.0
     # The decimal value for Stone Bricks. Available options: Any decimal number
-    STONE_BRICKS: 4.0
+    STONE_BRICKS: 374.92
     # The decimal value for Mossy Stone Bricks. Available options: Any decimal number
-    MOSSY_STONE_BRICKS: 4.0
+    MOSSY_STONE_BRICKS: 3312.5
     # The decimal value for Cracked Stone Bricks. Available options: Any decimal number
-    CRACKED_STONE_BRICKS: 4.0
+    CRACKED_STONE_BRICKS: 3828.12
     # The decimal value for Chiseled Stone Bricks. Available options: Any decimal number
-    CHISELED_STONE_BRICKS: 4.0
+    CHISELED_STONE_BRICKS: 2310.19
     # The decimal value for Packed Mud. Available options: Any decimal number
     PACKED_MUD: 4.0
     # The decimal value for Mud Bricks. Available options: Any decimal number
@@ -1828,25 +1828,25 @@ TYPE:
     # The decimal value for Chiseled Deepslate. Available options: Any decimal number
     CHISELED_DEEPSLATE: 4.0
     # The decimal value for Iron Bars. Available options: Any decimal number
-    IRON_BARS: 1.0
+    IRON_BARS: 1435.16
     # The decimal value for Chain. Available options: Any decimal number
     CHAIN: 1.0
     # The decimal value for Glass Pane. Available options: Any decimal number
-    GLASS_PANE: 3.0
+    GLASS_PANE: 852.34
     # The decimal value for Vine. Available options: Any decimal number
-    VINE: 28.0
+    VINE: 5781.25
     # The decimal value for Glow Lichen. Available options: Any decimal number
     GLOW_LICHEN: 4.0
     # The decimal value for Leaf Litter. Available options: Any decimal number
     LEAF_LITTER: 1.0
     # The decimal value for Brick Stairs. Available options: Any decimal number
-    BRICK_STAIRS: 4.0
+    BRICK_STAIRS: 7398.7
     # The decimal value for Stone Brick Stairs. Available options: Any decimal number
-    STONE_BRICK_STAIRS: 4.0
+    STONE_BRICK_STAIRS: 10987.09
     # The decimal value for Mud Brick Stairs. Available options: Any decimal number
     MUD_BRICK_STAIRS: 4.0
     # The decimal value for Mycelium. Available options: Any decimal number
-    MYCELIUM: 5.0
+    MYCELIUM: 468.75
     # The decimal value for Nether Bricks. Available options: Any decimal number
     NETHER_BRICKS: 3.0
     # The decimal value for Cracked Nether Bricks. Available options: Any decimal number
@@ -1854,9 +1854,9 @@ TYPE:
     # The decimal value for Chiseled Nether Bricks. Available options: Any decimal number
     CHISELED_NETHER_BRICKS: 4.5
     # The decimal value for Nether Brick Fence. Available options: Any decimal number
-    NETHER_BRICK_FENCE: 6.0
+    NETHER_BRICK_FENCE: 3909765.62
     # The decimal value for Nether Brick Stairs. Available options: Any decimal number
-    NETHER_BRICK_STAIRS: 4.0
+    NETHER_BRICK_STAIRS: 14735.48
     # The decimal value for Sculk. Available options: Any decimal number
     SCULK: 1.0
     # The decimal value for Sculk Vein. Available options: Any decimal number
@@ -1866,31 +1866,31 @@ TYPE:
     # The decimal value for Sculk Shrieker. Available options: Any decimal number
     SCULK_SHRIEKER: 1.0
     # The decimal value for Enchanting Table. Available options: Any decimal number
-    ENCHANTING_TABLE: 500.0
+    ENCHANTING_TABLE: 151718.75
     # The decimal value for End Stone. Available options: Any decimal number
-    END_STONE: 1.0
+    END_STONE: 976.56
     # The decimal value for End Stone Bricks. Available options: Any decimal number
     END_STONE_BRICKS: 1.0
     # The decimal value for Dragon Egg. Available options: Any decimal number
     DRAGON_EGG: 2000000000.0
     # The decimal value for Sandstone Stairs. Available options: Any decimal number
-    SANDSTONE_STAIRS: 4.0
+    SANDSTONE_STAIRS: 4146.19
     # The decimal value for Ender Chest. Available options: Any decimal number
-    ENDER_CHEST: 150.0
+    ENDER_CHEST: 3750.0
     # The decimal value for Oak Stairs. Available options: Any decimal number
-    OAK_STAIRS: 4.0
+    OAK_STAIRS: 9375.0
     # The decimal value for Spruce Stairs. Available options: Any decimal number
-    SPRUCE_STAIRS: 4.0
+    SPRUCE_STAIRS: 1523.44
     # The decimal value for Birch Stairs. Available options: Any decimal number
-    BIRCH_STAIRS: 4.0
+    BIRCH_STAIRS: 75000.0
     # The decimal value for Jungle Stairs. Available options: Any decimal number
-    JUNGLE_STAIRS: 4.0
+    JUNGLE_STAIRS: 4886.64
     # The decimal value for Acacia Stairs. Available options: Any decimal number
-    ACACIA_STAIRS: 4.0
+    ACACIA_STAIRS: 234375.0
     # The decimal value for Cherry Stairs. Available options: Any decimal number
     CHERRY_STAIRS: 4.0
     # The decimal value for Dark Oak Stairs. Available options: Any decimal number
-    DARK_OAK_STAIRS: 4.0
+    DARK_OAK_STAIRS: 9843.75
     # The decimal value for Mangrove Stairs. Available options: Any decimal number
     MANGROVE_STAIRS: 4.0
     # The decimal value for Bamboo Stairs. Available options: Any decimal number
@@ -1902,9 +1902,9 @@ TYPE:
     # The decimal value for Warped Stairs. Available options: Any decimal number
     WARPED_STAIRS: 4.0
     # The decimal value for Beacon. Available options: Any decimal number
-    BEACON: 7500.0
+    BEACON: 210000.0
     # The decimal value for Anvil. Available options: Any decimal number
-    ANVIL: 120.0
+    ANVIL: 7998.44
     # The decimal value for Chipped Anvil. Available options: Any decimal number
     CHIPPED_ANVIL: 45.0
     # The decimal value for Damaged Anvil. Available options: Any decimal number
@@ -1912,13 +1912,13 @@ TYPE:
     # The decimal value for Chiseled Quartz Block. Available options: Any decimal number
     CHISELED_QUARTZ_BLOCK: 4.5
     # The decimal value for Quartz Block. Available options: Any decimal number
-    QUARTZ_BLOCK: 6.0
+    QUARTZ_BLOCK: 3950.88
     # The decimal value for Quartz Bricks. Available options: Any decimal number
     QUARTZ_BRICKS: 2.0
     # The decimal value for Quartz Pillar. Available options: Any decimal number
-    QUARTZ_PILLAR: 2.0
+    QUARTZ_PILLAR: 5117.19
     # The decimal value for Quartz Stairs. Available options: Any decimal number
-    QUARTZ_STAIRS: 4.0
+    QUARTZ_STAIRS: 9343.75
     # The decimal value for White Terracotta. Available options: Any decimal number
     WHITE_TERRACOTTA: 6.0
     # The decimal value for Orange Terracotta. Available options: Any decimal number
@@ -1950,113 +1950,113 @@ TYPE:
     # The decimal value for Red Terracotta. Available options: Any decimal number
     RED_TERRACOTTA: 6.0
     # The decimal value for Hay Block. Available options: Any decimal number
-    HAY_BLOCK: 170.0
+    HAY_BLOCK: 8436.55
     # The decimal value for White Carpet. Available options: Any decimal number
-    WHITE_CARPET: 2.0
+    WHITE_CARPET: 6328.12
     # The decimal value for Orange Carpet. Available options: Any decimal number
-    ORANGE_CARPET: 2.0
+    ORANGE_CARPET: 7812.5
     # The decimal value for Magenta Carpet. Available options: Any decimal number
-    MAGENTA_CARPET: 2.0
+    MAGENTA_CARPET: 4687.5
     # The decimal value for Light Blue Carpet. Available options: Any decimal number
-    LIGHT_BLUE_CARPET: 2.0
+    LIGHT_BLUE_CARPET: 3117.19
     # The decimal value for Yellow Carpet. Available options: Any decimal number
-    YELLOW_CARPET: 2.0
+    YELLOW_CARPET: 7031.25
     # The decimal value for Lime Carpet. Available options: Any decimal number
-    LIME_CARPET: 2.0
+    LIME_CARPET: 13118.17
     # The decimal value for Pink Carpet. Available options: Any decimal number
-    PINK_CARPET: 2.0
+    PINK_CARPET: 7734.38
     # The decimal value for Gray Carpet. Available options: Any decimal number
-    GRAY_CARPET: 2.0
+    GRAY_CARPET: 8968.75
     # The decimal value for Light Gray Carpet. Available options: Any decimal number
-    LIGHT_GRAY_CARPET: 2.0
+    LIGHT_GRAY_CARPET: 8571.92
     # The decimal value for Cyan Carpet. Available options: Any decimal number
-    CYAN_CARPET: 2.0
+    CYAN_CARPET: 13203.12
     # The decimal value for Purple Carpet. Available options: Any decimal number
-    PURPLE_CARPET: 2.0
+    PURPLE_CARPET: 163187.5
     # The decimal value for Blue Carpet. Available options: Any decimal number
-    BLUE_CARPET: 2.0
+    BLUE_CARPET: 7789.06
     # The decimal value for Brown Carpet. Available options: Any decimal number
-    BROWN_CARPET: 2.0
+    BROWN_CARPET: 9367.19
     # The decimal value for Green Carpet. Available options: Any decimal number
-    GREEN_CARPET: 2.0
+    GREEN_CARPET: 354296.88
     # The decimal value for Red Carpet. Available options: Any decimal number
-    RED_CARPET: 2.0
+    RED_CARPET: 3716.31
     # The decimal value for Black Carpet. Available options: Any decimal number
-    BLACK_CARPET: 2.0
+    BLACK_CARPET: 2472.73
     # The decimal value for Terracotta. Available options: Any decimal number
     TERRACOTTA: 6.0
     # The decimal value for Packed Ice. Available options: Any decimal number
-    PACKED_ICE: 8.0
+    PACKED_ICE: 533.59
     # The decimal value for White Stained Glass. Available options: Any decimal number
-    WHITE_STAINED_GLASS: 6.0
+    WHITE_STAINED_GLASS: 1671.88
     # The decimal value for Orange Stained Glass. Available options: Any decimal number
-    ORANGE_STAINED_GLASS: 6.0
+    ORANGE_STAINED_GLASS: 8812.5
     # The decimal value for Magenta Stained Glass. Available options: Any decimal number
-    MAGENTA_STAINED_GLASS: 6.0
+    MAGENTA_STAINED_GLASS: 2500.0
     # The decimal value for Light Blue Stained Glass. Available options: Any decimal number
-    LIGHT_BLUE_STAINED_GLASS: 6.0
+    LIGHT_BLUE_STAINED_GLASS: 337890.62
     # The decimal value for Yellow Stained Glass. Available options: Any decimal number
-    YELLOW_STAINED_GLASS: 6.0
+    YELLOW_STAINED_GLASS: 3125.0
     # The decimal value for Lime Stained Glass. Available options: Any decimal number
-    LIME_STAINED_GLASS: 6.0
+    LIME_STAINED_GLASS: 3806.88
     # The decimal value for Pink Stained Glass. Available options: Any decimal number
-    PINK_STAINED_GLASS: 6.0
+    PINK_STAINED_GLASS: 3046.88
     # The decimal value for Gray Stained Glass. Available options: Any decimal number
-    GRAY_STAINED_GLASS: 6.0
+    GRAY_STAINED_GLASS: 2570.31
     # The decimal value for Light Gray Stained Glass. Available options: Any decimal number
-    LIGHT_GRAY_STAINED_GLASS: 6.0
+    LIGHT_GRAY_STAINED_GLASS: 3203.12
     # The decimal value for Cyan Stained Glass. Available options: Any decimal number
-    CYAN_STAINED_GLASS: 6.0
+    CYAN_STAINED_GLASS: 7542.97
     # The decimal value for Purple Stained Glass. Available options: Any decimal number
-    PURPLE_STAINED_GLASS: 6.0
+    PURPLE_STAINED_GLASS: 3057.06
     # The decimal value for Blue Stained Glass. Available options: Any decimal number
-    BLUE_STAINED_GLASS: 6.0
+    BLUE_STAINED_GLASS: 2734.38
     # The decimal value for Brown Stained Glass. Available options: Any decimal number
-    BROWN_STAINED_GLASS: 6.0
+    BROWN_STAINED_GLASS: 7604.5
     # The decimal value for Green Stained Glass. Available options: Any decimal number
-    GREEN_STAINED_GLASS: 6.0
+    GREEN_STAINED_GLASS: 3906.25
     # The decimal value for Red Stained Glass. Available options: Any decimal number
-    RED_STAINED_GLASS: 6.0
+    RED_STAINED_GLASS: 2343.75
     # The decimal value for Black Stained Glass. Available options: Any decimal number
-    BLACK_STAINED_GLASS: 6.0
+    BLACK_STAINED_GLASS: 772.22
     # The decimal value for White Stained Glass Pane. Available options: Any decimal number
-    WHITE_STAINED_GLASS_PANE: 3.0
+    WHITE_STAINED_GLASS_PANE: 1929.69
     # The decimal value for Orange Stained Glass Pane. Available options: Any decimal number
-    ORANGE_STAINED_GLASS_PANE: 3.0
+    ORANGE_STAINED_GLASS_PANE: 164062.5
     # The decimal value for Magenta Stained Glass Pane. Available options: Any decimal number
-    MAGENTA_STAINED_GLASS_PANE: 3.0
+    MAGENTA_STAINED_GLASS_PANE: 13085.34
     # The decimal value for Light Blue Stained Glass Pane. Available options: Any decimal number
-    LIGHT_BLUE_STAINED_GLASS_PANE: 3.0
+    LIGHT_BLUE_STAINED_GLASS_PANE: 163281.25
     # The decimal value for Yellow Stained Glass Pane. Available options: Any decimal number
-    YELLOW_STAINED_GLASS_PANE: 3.0
+    YELLOW_STAINED_GLASS_PANE: 43229.17
     # The decimal value for Lime Stained Glass Pane. Available options: Any decimal number
-    LIME_STAINED_GLASS_PANE: 3.0
+    LIME_STAINED_GLASS_PANE: 6242.19
     # The decimal value for Pink Stained Glass Pane. Available options: Any decimal number
-    PINK_STAINED_GLASS_PANE: 3.0
+    PINK_STAINED_GLASS_PANE: 782812.5
     # The decimal value for Gray Stained Glass Pane. Available options: Any decimal number
-    GRAY_STAINED_GLASS_PANE: 3.0
+    GRAY_STAINED_GLASS_PANE: 28484.38
     # The decimal value for Light Gray Stained Glass Pane. Available options: Any decimal number
-    LIGHT_GRAY_STAINED_GLASS_PANE: 3.0
+    LIGHT_GRAY_STAINED_GLASS_PANE: 46415.44
     # The decimal value for Cyan Stained Glass Pane. Available options: Any decimal number
-    CYAN_STAINED_GLASS_PANE: 3.0
+    CYAN_STAINED_GLASS_PANE: 75781.25
     # The decimal value for Purple Stained Glass Pane. Available options: Any decimal number
-    PURPLE_STAINED_GLASS_PANE: 3.0
+    PURPLE_STAINED_GLASS_PANE: 313265.62
     # The decimal value for Blue Stained Glass Pane. Available options: Any decimal number
-    BLUE_STAINED_GLASS_PANE: 3.0
+    BLUE_STAINED_GLASS_PANE: 57812.5
     # The decimal value for Brown Stained Glass Pane. Available options: Any decimal number
-    BROWN_STAINED_GLASS_PANE: 3.0
+    BROWN_STAINED_GLASS_PANE: 18472.78
     # The decimal value for Green Stained Glass Pane. Available options: Any decimal number
-    GREEN_STAINED_GLASS_PANE: 3.0
+    GREEN_STAINED_GLASS_PANE: 4281.25
     # The decimal value for Red Stained Glass Pane. Available options: Any decimal number
-    RED_STAINED_GLASS_PANE: 3.0
+    RED_STAINED_GLASS_PANE: 5435.19
     # The decimal value for Black Stained Glass Pane. Available options: Any decimal number
-    BLACK_STAINED_GLASS_PANE: 3.0
+    BLACK_STAINED_GLASS_PANE: 2914.06
     # The decimal value for Prismarine. Available options: Any decimal number
-    PRISMARINE: 6.0
+    PRISMARINE: 2170.64
     # The decimal value for Prismarine Bricks. Available options: Any decimal number
-    PRISMARINE_BRICKS: 4.0
+    PRISMARINE_BRICKS: 4070.83
     # The decimal value for Dark Prismarine. Available options: Any decimal number
-    DARK_PRISMARINE: 3.0
+    DARK_PRISMARINE: 7053.58
     # The decimal value for Prismarine Stairs. Available options: Any decimal number
     PRISMARINE_STAIRS: 4.0
     # The decimal value for Prismarine Brick Stairs. Available options: Any decimal number
@@ -2064,149 +2064,149 @@ TYPE:
     # The decimal value for Dark Prismarine Stairs. Available options: Any decimal number
     DARK_PRISMARINE_STAIRS: 4.0
     # The decimal value for Red Sandstone. Available options: Any decimal number
-    RED_SANDSTONE: 3.0
+    RED_SANDSTONE: 11320.31
     # The decimal value for Chiseled Red Sandstone. Available options: Any decimal number
-    CHISELED_RED_SANDSTONE: 3.0
+    CHISELED_RED_SANDSTONE: 1093750.0
     # The decimal value for Cut Red Sandstone. Available options: Any decimal number
     CUT_RED_SANDSTONE: 3.0
     # The decimal value for Red Sandstone Stairs. Available options: Any decimal number
-    RED_SANDSTONE_STAIRS: 3.0
+    RED_SANDSTONE_STAIRS: 14640.62
     # The decimal value for Magma Block. Available options: Any decimal number
     MAGMA_BLOCK: 4.0
     # The decimal value for Red Nether Bricks. Available options: Any decimal number
     RED_NETHER_BRICKS: 4.0
     # The decimal value for Bone Block. Available options: Any decimal number
-    BONE_BLOCK: 9.0
+    BONE_BLOCK: 727.34
     # The decimal value for Shulker Box. Available options: Any decimal number
     SHULKER_BOX: 75.0
     # The decimal value for White Shulker Box. Available options: Any decimal number
-    WHITE_SHULKER_BOX: 75.0
+    WHITE_SHULKER_BOX: 85781.25
     # The decimal value for Orange Shulker Box. Available options: Any decimal number
-    ORANGE_SHULKER_BOX: 75.0
+    ORANGE_SHULKER_BOX: 7812.5
     # The decimal value for Magenta Shulker Box. Available options: Any decimal number
-    MAGENTA_SHULKER_BOX: 75.0
+    MAGENTA_SHULKER_BOX: 237898.44
     # The decimal value for Light Blue Shulker Box. Available options: Any decimal number
-    LIGHT_BLUE_SHULKER_BOX: 75.0
+    LIGHT_BLUE_SHULKER_BOX: 74000.0
     # The decimal value for Yellow Shulker Box. Available options: Any decimal number
-    YELLOW_SHULKER_BOX: 75.0
+    YELLOW_SHULKER_BOX: 125500.0
     # The decimal value for Lime Shulker Box. Available options: Any decimal number
-    LIME_SHULKER_BOX: 75.0
+    LIME_SHULKER_BOX: 13141.41
     # The decimal value for Pink Shulker Box. Available options: Any decimal number
-    PINK_SHULKER_BOX: 75.0
+    PINK_SHULKER_BOX: 92500.0
     # The decimal value for Gray Shulker Box. Available options: Any decimal number
-    GRAY_SHULKER_BOX: 75.0
+    GRAY_SHULKER_BOX: 124500.0
     # The decimal value for Light Gray Shulker Box. Available options: Any decimal number
     LIGHT_GRAY_SHULKER_BOX: 75.0
     # The decimal value for Cyan Shulker Box. Available options: Any decimal number
-    CYAN_SHULKER_BOX: 75.0
+    CYAN_SHULKER_BOX: 64000.0
     # The decimal value for Purple Shulker Box. Available options: Any decimal number
-    PURPLE_SHULKER_BOX: 75.0
+    PURPLE_SHULKER_BOX: 137000.0
     # The decimal value for Blue Shulker Box. Available options: Any decimal number
-    BLUE_SHULKER_BOX: 75.0
+    BLUE_SHULKER_BOX: 189050.0
     # The decimal value for Brown Shulker Box. Available options: Any decimal number
-    BROWN_SHULKER_BOX: 75.0
+    BROWN_SHULKER_BOX: 325000.0
     # The decimal value for Green Shulker Box. Available options: Any decimal number
-    GREEN_SHULKER_BOX: 75.0
+    GREEN_SHULKER_BOX: 50281.25
     # The decimal value for Red Shulker Box. Available options: Any decimal number
-    RED_SHULKER_BOX: 75.0
+    RED_SHULKER_BOX: 52000.0
     # The decimal value for Black Shulker Box. Available options: Any decimal number
-    BLACK_SHULKER_BOX: 75.0
+    BLACK_SHULKER_BOX: 54500.0
     # The decimal value for White Glazed Terracotta. Available options: Any decimal number
-    WHITE_GLAZED_TERRACOTTA: 6.0
+    WHITE_GLAZED_TERRACOTTA: 3632.81
     # The decimal value for Orange Glazed Terracotta. Available options: Any decimal number
-    ORANGE_GLAZED_TERRACOTTA: 6.0
+    ORANGE_GLAZED_TERRACOTTA: 52333.33
     # The decimal value for Magenta Glazed Terracotta. Available options: Any decimal number
-    MAGENTA_GLAZED_TERRACOTTA: 6.0
+    MAGENTA_GLAZED_TERRACOTTA: 30773.44
     # The decimal value for Light Blue Glazed Terracotta. Available options: Any decimal number
-    LIGHT_BLUE_GLAZED_TERRACOTTA: 6.0
+    LIGHT_BLUE_GLAZED_TERRACOTTA: 3898.44
     # The decimal value for Yellow Glazed Terracotta. Available options: Any decimal number
-    YELLOW_GLAZED_TERRACOTTA: 6.0
+    YELLOW_GLAZED_TERRACOTTA: 2109.38
     # The decimal value for Lime Glazed Terracotta. Available options: Any decimal number
-    LIME_GLAZED_TERRACOTTA: 6.0
+    LIME_GLAZED_TERRACOTTA: 3125.0
     # The decimal value for Pink Glazed Terracotta. Available options: Any decimal number
-    PINK_GLAZED_TERRACOTTA: 6.0
+    PINK_GLAZED_TERRACOTTA: 2311.72
     # The decimal value for Gray Glazed Terracotta. Available options: Any decimal number
-    GRAY_GLAZED_TERRACOTTA: 6.0
+    GRAY_GLAZED_TERRACOTTA: 199500.0
     # The decimal value for Light Gray Glazed Terracotta. Available options: Any decimal number
-    LIGHT_GRAY_GLAZED_TERRACOTTA: 6.0
+    LIGHT_GRAY_GLAZED_TERRACOTTA: 3046.88
     # The decimal value for Cyan Glazed Terracotta. Available options: Any decimal number
-    CYAN_GLAZED_TERRACOTTA: 6.0
+    CYAN_GLAZED_TERRACOTTA: 3956.66
     # The decimal value for Purple Glazed Terracotta. Available options: Any decimal number
-    PURPLE_GLAZED_TERRACOTTA: 6.0
+    PURPLE_GLAZED_TERRACOTTA: 75000.0
     # The decimal value for Blue Glazed Terracotta. Available options: Any decimal number
-    BLUE_GLAZED_TERRACOTTA: 6.0
+    BLUE_GLAZED_TERRACOTTA: 30671.09
     # The decimal value for Brown Glazed Terracotta. Available options: Any decimal number
-    BROWN_GLAZED_TERRACOTTA: 6.0
+    BROWN_GLAZED_TERRACOTTA: 22436.08
     # The decimal value for Green Glazed Terracotta. Available options: Any decimal number
-    GREEN_GLAZED_TERRACOTTA: 6.0
+    GREEN_GLAZED_TERRACOTTA: 2656.25
     # The decimal value for Red Glazed Terracotta. Available options: Any decimal number
-    RED_GLAZED_TERRACOTTA: 6.0
+    RED_GLAZED_TERRACOTTA: 2726.56
     # The decimal value for Black Glazed Terracotta. Available options: Any decimal number
-    BLACK_GLAZED_TERRACOTTA: 6.0
+    BLACK_GLAZED_TERRACOTTA: 1562.5
     # The decimal value for White Concrete. Available options: Any decimal number
-    WHITE_CONCRETE: 8.0
+    WHITE_CONCRETE: 1091.38
     # The decimal value for Orange Concrete. Available options: Any decimal number
-    ORANGE_CONCRETE: 8.0
+    ORANGE_CONCRETE: 3046.88
     # The decimal value for Magenta Concrete. Available options: Any decimal number
-    MAGENTA_CONCRETE: 8.0
+    MAGENTA_CONCRETE: 4856.88
     # The decimal value for Light Blue Concrete. Available options: Any decimal number
-    LIGHT_BLUE_CONCRETE: 8.0
+    LIGHT_BLUE_CONCRETE: 2843.77
     # The decimal value for Yellow Concrete. Available options: Any decimal number
-    YELLOW_CONCRETE: 8.0
+    YELLOW_CONCRETE: 3195.31
     # The decimal value for Lime Concrete. Available options: Any decimal number
-    LIME_CONCRETE: 8.0
+    LIME_CONCRETE: 8203.12
     # The decimal value for Pink Concrete. Available options: Any decimal number
-    PINK_CONCRETE: 8.0
+    PINK_CONCRETE: 3234.38
     # The decimal value for Gray Concrete. Available options: Any decimal number
-    GRAY_CONCRETE: 8.0
+    GRAY_CONCRETE: 3304.69
     # The decimal value for Light Gray Concrete. Available options: Any decimal number
-    LIGHT_GRAY_CONCRETE: 8.0
+    LIGHT_GRAY_CONCRETE: 5484.38
     # The decimal value for Cyan Concrete. Available options: Any decimal number
-    CYAN_CONCRETE: 8.0
+    CYAN_CONCRETE: 3273.44
     # The decimal value for Purple Concrete. Available options: Any decimal number
-    PURPLE_CONCRETE: 8.0
+    PURPLE_CONCRETE: 3770.81
     # The decimal value for Blue Concrete. Available options: Any decimal number
-    BLUE_CONCRETE: 8.0
+    BLUE_CONCRETE: 3703.12
     # The decimal value for Brown Concrete. Available options: Any decimal number
-    BROWN_CONCRETE: 8.0
+    BROWN_CONCRETE: 6992.19
     # The decimal value for Green Concrete. Available options: Any decimal number
-    GREEN_CONCRETE: 5000.0
+    GREEN_CONCRETE: 6131.61
     # The decimal value for Red Concrete. Available options: Any decimal number
-    RED_CONCRETE: 8.0
+    RED_CONCRETE: 3632.81
     # The decimal value for Black Concrete. Available options: Any decimal number
-    BLACK_CONCRETE: 8.0
+    BLACK_CONCRETE: 2500.0
     # The decimal value for White Concrete Powder. Available options: Any decimal number
-    WHITE_CONCRETE_POWDER: 4.0
+    WHITE_CONCRETE_POWDER: 1330.91
     # The decimal value for Orange Concrete Powder. Available options: Any decimal number
-    ORANGE_CONCRETE_POWDER: 4.0
+    ORANGE_CONCRETE_POWDER: 2929.69
     # The decimal value for Magenta Concrete Powder. Available options: Any decimal number
-    MAGENTA_CONCRETE_POWDER: 4.0
+    MAGENTA_CONCRETE_POWDER: 3632.81
     # The decimal value for Light Blue Concrete Powder. Available options: Any decimal number
-    LIGHT_BLUE_CONCRETE_POWDER: 4.0
+    LIGHT_BLUE_CONCRETE_POWDER: 2500.0
     # The decimal value for Yellow Concrete Powder. Available options: Any decimal number
-    YELLOW_CONCRETE_POWDER: 4.0
+    YELLOW_CONCRETE_POWDER: 9662.0
     # The decimal value for Lime Concrete Powder. Available options: Any decimal number
-    LIME_CONCRETE_POWDER: 4.0
+    LIME_CONCRETE_POWDER: 3812.5
     # The decimal value for Pink Concrete Powder. Available options: Any decimal number
-    PINK_CONCRETE_POWDER: 4.0
+    PINK_CONCRETE_POWDER: 85156.25
     # The decimal value for Gray Concrete Powder. Available options: Any decimal number
-    GRAY_CONCRETE_POWDER: 4.0
+    GRAY_CONCRETE_POWDER: 7812.5
     # The decimal value for Light Gray Concrete Powder. Available options: Any decimal number
-    LIGHT_GRAY_CONCRETE_POWDER: 4.0
+    LIGHT_GRAY_CONCRETE_POWDER: 11710.94
     # The decimal value for Cyan Concrete Powder. Available options: Any decimal number
-    CYAN_CONCRETE_POWDER: 4.0
+    CYAN_CONCRETE_POWDER: 4516.09
     # The decimal value for Purple Concrete Powder. Available options: Any decimal number
-    PURPLE_CONCRETE_POWDER: 4.0
+    PURPLE_CONCRETE_POWDER: 6640.62
     # The decimal value for Blue Concrete Powder. Available options: Any decimal number
-    BLUE_CONCRETE_POWDER: 4.0
+    BLUE_CONCRETE_POWDER: 2343.75
     # The decimal value for Brown Concrete Powder. Available options: Any decimal number
-    BROWN_CONCRETE_POWDER: 4.0
+    BROWN_CONCRETE_POWDER: 11093.75
     # The decimal value for Green Concrete Powder. Available options: Any decimal number
-    GREEN_CONCRETE_POWDER: 2500.0
+    GREEN_CONCRETE_POWDER: 5080468.75
     # The decimal value for Red Concrete Powder. Available options: Any decimal number
-    RED_CONCRETE_POWDER: 4.0
+    RED_CONCRETE_POWDER: 2786.09
     # The decimal value for Black Concrete Powder. Available options: Any decimal number
-    BLACK_CONCRETE_POWDER: 4.0
+    BLACK_CONCRETE_POWDER: 4218.75
     # The decimal value for Turtle Egg. Available options: Any decimal number
     TURTLE_EGG: 20.0
     # The decimal value for Sniffer Egg. Available options: Any decimal number
@@ -2248,7 +2248,7 @@ TYPE:
     # The decimal value for End Stone Brick Stairs. Available options: Any decimal number
     END_STONE_BRICK_STAIRS: 4.0
     # The decimal value for Stone Stairs. Available options: Any decimal number
-    STONE_STAIRS: 4.0
+    STONE_STAIRS: 843.75
     # The decimal value for Smooth Sandstone Stairs. Available options: Any decimal number
     SMOOTH_SANDSTONE_STAIRS: 4.0
     # The decimal value for Smooth Quartz Stairs. Available options: Any decimal number
@@ -2282,9 +2282,9 @@ TYPE:
     # The decimal value for Mossy Cobblestone Slab. Available options: Any decimal number
     MOSSY_COBBLESTONE_SLAB: 4.0
     # The decimal value for End Stone Brick Slab. Available options: Any decimal number
-    END_STONE_BRICK_SLAB: 4.0
+    END_STONE_BRICK_SLAB: 8296.12
     # The decimal value for Smooth Sandstone Slab. Available options: Any decimal number
-    SMOOTH_SANDSTONE_SLAB: 4.0
+    SMOOTH_SANDSTONE_SLAB: 12221.36
     # The decimal value for Smooth Quartz Slab. Available options: Any decimal number
     SMOOTH_QUARTZ_SLAB: 4.0
     # The decimal value for Granite Slab. Available options: Any decimal number
@@ -2308,53 +2308,53 @@ TYPE:
     # The decimal value for Scaffolding. Available options: Any decimal number
     SCAFFOLDING: 1.0
     # The decimal value for Redstone Torch. Available options: Any decimal number
-    REDSTONE_TORCH: 52.0
+    REDSTONE_TORCH: 1828.91
     # The decimal value for Repeater. Available options: Any decimal number
-    REPEATER: 130.0
+    REPEATER: 2496.5
     # The decimal value for Comparator. Available options: Any decimal number
-    COMPARATOR: 65.0
+    COMPARATOR: 4994.0
     # The decimal value for Piston. Available options: Any decimal number
-    PISTON: 85.0
+    PISTON: 13719.75
     # The decimal value for Sticky Piston. Available options: Any decimal number
-    STICKY_PISTON: 100.0
+    STICKY_PISTON: 4697.5
     # The decimal value for Slime Block. Available options: Any decimal number
     SLIME_BLOCK: 60.0
     # The decimal value for Honey Block. Available options: Any decimal number
     HONEY_BLOCK: 20.0
     # The decimal value for Observer. Available options: Any decimal number
-    OBSERVER: 125.0
+    OBSERVER: 3247.0
     # The decimal value for Hopper. Available options: Any decimal number
-    HOPPER: 60.0
+    HOPPER: 4122.5
     # The decimal value for Dispenser. Available options: Any decimal number
-    DISPENSER: 50.0
+    DISPENSER: 17500.0
     # The decimal value for Dropper. Available options: Any decimal number
-    DROPPER: 6.0
+    DROPPER: 1398.5
     # The decimal value for Lectern. Available options: Any decimal number
     LECTERN: 10.0
     # The decimal value for Target. Available options: Any decimal number
     TARGET: 270.0
     # The decimal value for Lever. Available options: Any decimal number
-    LEVER: 4.0
+    LEVER: 994.0
     # The decimal value for Lightning Rod. Available options: Any decimal number
     LIGHTNING_ROD: 50.0
     # The decimal value for Daylight Detector. Available options: Any decimal number
-    DAYLIGHT_DETECTOR: 10.5
+    DAYLIGHT_DETECTOR: 97500.0
     # The decimal value for Sculk Sensor. Available options: Any decimal number
     SCULK_SENSOR: 50.0
     # The decimal value for Calibrated Sculk Sensor. Available options: Any decimal number
     CALIBRATED_SCULK_SENSOR: 20.0
     # The decimal value for Tripwire Hook. Available options: Any decimal number
-    TRIPWIRE_HOOK: 1.0
+    TRIPWIRE_HOOK: 2929.69
     # The decimal value for Trapped Chest. Available options: Any decimal number
-    TRAPPED_CHEST: 32.0
+    TRAPPED_CHEST: 2956002.62
     # The decimal value for Tnt. Available options: Any decimal number
-    TNT: 40.0
+    TNT: 9562.5
     # The decimal value for Redstone Lamp. Available options: Any decimal number
-    REDSTONE_LAMP: 30.0
+    REDSTONE_LAMP: 5312.5
     # The decimal value for Note Block. Available options: Any decimal number
     NOTE_BLOCK: 30.0
     # The decimal value for Stone Button. Available options: Any decimal number
-    STONE_BUTTON: 4.0
+    STONE_BUTTON: 9328.12
     # The decimal value for Polished Blackstone Button. Available options: Any decimal number
     POLISHED_BLACKSTONE_BUTTON: 4.0
     # The decimal value for Oak Button. Available options: Any decimal number
@@ -2380,13 +2380,13 @@ TYPE:
     # The decimal value for Warped Button. Available options: Any decimal number
     WARPED_BUTTON: 4.0
     # The decimal value for Stone Pressure Plate. Available options: Any decimal number
-    STONE_PRESSURE_PLATE: 10.0
+    STONE_PRESSURE_PLATE: 211350.0
     # The decimal value for Polished Blackstone Pressure Plate. Available options: Any decimal number
     POLISHED_BLACKSTONE_PRESSURE_PLATE: 10.0
     # The decimal value for Light Weighted Pressure Plate. Available options: Any decimal number
-    LIGHT_WEIGHTED_PRESSURE_PLATE: 10.0
+    LIGHT_WEIGHTED_PRESSURE_PLATE: 101406.25
     # The decimal value for Heavy Weighted Pressure Plate. Available options: Any decimal number
-    HEAVY_WEIGHTED_PRESSURE_PLATE: 10.0
+    HEAVY_WEIGHTED_PRESSURE_PLATE: 9765.62
     # The decimal value for Oak Pressure Plate. Available options: Any decimal number
     OAK_PRESSURE_PLATE: 10.0
     # The decimal value for Spruce Pressure Plate. Available options: Any decimal number
@@ -2410,21 +2410,21 @@ TYPE:
     # The decimal value for Warped Pressure Plate. Available options: Any decimal number
     WARPED_PRESSURE_PLATE: 10.0
     # The decimal value for Iron Door. Available options: Any decimal number
-    IRON_DOOR: 10.0
+    IRON_DOOR: 53906.25
     # The decimal value for Oak Door. Available options: Any decimal number
-    OAK_DOOR: 8.0
+    OAK_DOOR: 1406.25
     # The decimal value for Spruce Door. Available options: Any decimal number
-    SPRUCE_DOOR: 8.0
+    SPRUCE_DOOR: 6390.62
     # The decimal value for Birch Door. Available options: Any decimal number
-    BIRCH_DOOR: 8.0
+    BIRCH_DOOR: 82031.25
     # The decimal value for Jungle Door. Available options: Any decimal number
-    JUNGLE_DOOR: 8.0
+    JUNGLE_DOOR: 60000.0
     # The decimal value for Acacia Door. Available options: Any decimal number
-    ACACIA_DOOR: 8.0
+    ACACIA_DOOR: 95312.5
     # The decimal value for Cherry Door. Available options: Any decimal number
     CHERRY_DOOR: 8.0
     # The decimal value for Dark Oak Door. Available options: Any decimal number
-    DARK_OAK_DOOR: 8.0
+    DARK_OAK_DOOR: 107812.5
     # The decimal value for Mangrove Door. Available options: Any decimal number
     MANGROVE_DOOR: 8.0
     # The decimal value for Bamboo Door. Available options: Any decimal number
@@ -2450,7 +2450,7 @@ TYPE:
     # The decimal value for Waxed Oxidized Copper Door. Available options: Any decimal number
     WAXED_OXIDIZED_COPPER_DOOR: 7.5
     # The decimal value for Iron Trapdoor. Available options: Any decimal number
-    IRON_TRAPDOOR: 4.0
+    IRON_TRAPDOOR: 2398.44
     # The decimal value for Oak Trapdoor. Available options: Any decimal number
     OAK_TRAPDOOR: 4.0
     # The decimal value for Spruce Trapdoor. Available options: Any decimal number
@@ -2492,17 +2492,17 @@ TYPE:
     # The decimal value for Oak Fence Gate. Available options: Any decimal number
     OAK_FENCE_GATE: 4.0
     # The decimal value for Spruce Fence Gate. Available options: Any decimal number
-    SPRUCE_FENCE_GATE: 4.0
+    SPRUCE_FENCE_GATE: 2155.62
     # The decimal value for Birch Fence Gate. Available options: Any decimal number
-    BIRCH_FENCE_GATE: 4.0
+    BIRCH_FENCE_GATE: 9375.0
     # The decimal value for Jungle Fence Gate. Available options: Any decimal number
-    JUNGLE_FENCE_GATE: 4.0
+    JUNGLE_FENCE_GATE: 341406.25
     # The decimal value for Acacia Fence Gate. Available options: Any decimal number
-    ACACIA_FENCE_GATE: 4.0
+    ACACIA_FENCE_GATE: 186666.67
     # The decimal value for Cherry Fence Gate. Available options: Any decimal number
     CHERRY_FENCE_GATE: 4.0
     # The decimal value for Dark Oak Fence Gate. Available options: Any decimal number
-    DARK_OAK_FENCE_GATE: 4.0
+    DARK_OAK_FENCE_GATE: 6640.62
     # The decimal value for Mangrove Fence Gate. Available options: Any decimal number
     MANGROVE_FENCE_GATE: 4.0
     # The decimal value for Bamboo Fence Gate. Available options: Any decimal number
@@ -2514,21 +2514,21 @@ TYPE:
     # The decimal value for Powered Rail. Available options: Any decimal number
     POWERED_RAIL: 20.0
     # The decimal value for Detector Rail. Available options: Any decimal number
-    DETECTOR_RAIL: 25.0
+    DETECTOR_RAIL: 4687.5
     # The decimal value for Rail. Available options: Any decimal number
-    RAIL: 4.0
+    RAIL: 453.12
     # The decimal value for Activator Rail. Available options: Any decimal number
-    ACTIVATOR_RAIL: 7.0
+    ACTIVATOR_RAIL: 1850.0
     # The decimal value for Minecart. Available options: Any decimal number
-    MINECART: 15.0
+    MINECART: 50000.0
     # The decimal value for Chest Minecart. Available options: Any decimal number
-    CHEST_MINECART: 15.0
+    CHEST_MINECART: 61500.0
     # The decimal value for Tnt Minecart. Available options: Any decimal number
-    TNT_MINECART: 22.5
+    TNT_MINECART: 70000.0
     # The decimal value for Hopper Minecart. Available options: Any decimal number
-    HOPPER_MINECART: 15.0
+    HOPPER_MINECART: 37500.0
     # The decimal value for Carrot On A Stick. Available options: Any decimal number
-    CARROT_ON_A_STICK: 9.0
+    CARROT_ON_A_STICK: 649999.0
     # The decimal value for Warped Fungus On A Stick. Available options: Any decimal number
     WARPED_FUNGUS_ON_A_STICK: 4.5
     # The decimal value for Oak Boat. Available options: Any decimal number
@@ -2536,19 +2536,19 @@ TYPE:
     # The decimal value for Oak Chest Boat. Available options: Any decimal number
     OAK_CHEST_BOAT: 4.5
     # The decimal value for Spruce Boat. Available options: Any decimal number
-    SPRUCE_BOAT: 4.5
+    SPRUCE_BOAT: 32200.0
     # The decimal value for Spruce Chest Boat. Available options: Any decimal number
     SPRUCE_CHEST_BOAT: 4.5
     # The decimal value for Birch Boat. Available options: Any decimal number
-    BIRCH_BOAT: 4.5
+    BIRCH_BOAT: 200000.0
     # The decimal value for Birch Chest Boat. Available options: Any decimal number
     BIRCH_CHEST_BOAT: 4.5
     # The decimal value for Jungle Boat. Available options: Any decimal number
-    JUNGLE_BOAT: 4.5
+    JUNGLE_BOAT: 250000.0
     # The decimal value for Jungle Chest Boat. Available options: Any decimal number
     JUNGLE_CHEST_BOAT: 4.5
     # The decimal value for Acacia Boat. Available options: Any decimal number
-    ACACIA_BOAT: 4.5
+    ACACIA_BOAT: 150000.0
     # The decimal value for Acacia Chest Boat. Available options: Any decimal number
     ACACIA_CHEST_BOAT: 4.5
     # The decimal value for Cherry Boat. Available options: Any decimal number
@@ -2556,7 +2556,7 @@ TYPE:
     # The decimal value for Cherry Chest Boat. Available options: Any decimal number
     CHERRY_CHEST_BOAT: 4.5
     # The decimal value for Dark Oak Boat. Available options: Any decimal number
-    DARK_OAK_BOAT: 4.5
+    DARK_OAK_BOAT: 457500.0
     # The decimal value for Dark Oak Chest Boat. Available options: Any decimal number
     DARK_OAK_CHEST_BOAT: 4.5
     # The decimal value for Mangrove Boat. Available options: Any decimal number
@@ -2574,21 +2574,21 @@ TYPE:
     # The decimal value for Wolf Armor. Available options: Any decimal number
     WOLF_ARMOR: 30.0
     # The decimal value for Apple. Available options: Any decimal number
-    APPLE: 3.5
+    APPLE: 4520.09
     # The decimal value for Stick. Available options: Any decimal number
-    STICK: 2.0
+    STICK: 23.42
     # The decimal value for Mushroom Stem. Available options: Any decimal number
     MUSHROOM_STEM: 2.0
     # The decimal value for Bread. Available options: Any decimal number
-    BREAD: 1.0
+    BREAD: 859.38
     # The decimal value for Flint. Available options: Any decimal number
-    FLINT: 2.0
+    FLINT: 1796.88
     # The decimal value for Painting. Available options: Any decimal number
-    PAINTING: 8.0
+    PAINTING: 93999.5
     # The decimal value for Golden Apple. Available options: Any decimal number
-    GOLDEN_APPLE: 30.0
+    GOLDEN_APPLE: 49447.0
     # The decimal value for Enchanted Golden Apple. Available options: Any decimal number
-    ENCHANTED_GOLDEN_APPLE: 250.0
+    ENCHANTED_GOLDEN_APPLE: 1830000.0
     # The decimal value for Oak Sign. Available options: Any decimal number
     OAK_SIGN: 9.0
     # The decimal value for Spruce Sign. Available options: Any decimal number
@@ -2636,13 +2636,13 @@ TYPE:
     # The decimal value for Dried Kelp Block. Available options: Any decimal number
     DRIED_KELP_BLOCK: 4500.0
     # The decimal value for Paper. Available options: Any decimal number
-    PAPER: 3.0
+    PAPER: 3859.38
     # The decimal value for Egg. Available options: Any decimal number
-    EGG: 3.0
+    EGG: 1062.5
     # The decimal value for Sugar. Available options: Any decimal number
-    SUGAR: 4.0
+    SUGAR: 216.84
     # The decimal value for Cake. Available options: Any decimal number
-    CAKE: 180.0
+    CAKE: 95999.5
     # The decimal value for White Bed. Available options: Any decimal number
     WHITE_BED: 45.0
     # The decimal value for Orange Bed. Available options: Any decimal number
@@ -2676,33 +2676,33 @@ TYPE:
     # The decimal value for Black Bed. Available options: Any decimal number
     BLACK_BED: 45.0
     # The decimal value for Cookie. Available options: Any decimal number
-    COOKIE: 4.0
+    COOKIE: 25390.62
     # The decimal value for Crafter. Available options: Any decimal number
     CRAFTER: 5.0
     # The decimal value for Filled Map. Available options: Any decimal number
-    FILLED_MAP: 1.0
+    FILLED_MAP: 2625.0
     # The decimal value for Melon Slice. Available options: Any decimal number
     MELON_SLICE: 6.0
     # The decimal value for Dried Kelp. Available options: Any decimal number
     DRIED_KELP: 500.0
     # The decimal value for Glass Bottle. Available options: Any decimal number
-    GLASS_BOTTLE: 6.0
+    GLASS_BOTTLE: 3093.75
     # The decimal value for Fermented Spider Eye. Available options: Any decimal number
-    FERMENTED_SPIDER_EYE: 3.0
+    FERMENTED_SPIDER_EYE: 42333.33
     # The decimal value for Blaze Powder. Available options: Any decimal number
-    BLAZE_POWDER: 2.5
+    BLAZE_POWDER: 1554.69
     # The decimal value for Brewing Stand. Available options: Any decimal number
-    BREWING_STAND: 15.0
+    BREWING_STAND: 39999.5
     # The decimal value for Cauldron. Available options: Any decimal number
-    CAULDRON: 21.0
+    CAULDRON: 31249.48
     # The decimal value for Ender Eye. Available options: Any decimal number
-    ENDER_EYE: 4.5
+    ENDER_EYE: 1406.25
     # The decimal value for Glistering Melon Slice. Available options: Any decimal number
     GLISTERING_MELON_SLICE: 4.5
     # The decimal value for Experience Bottle. Available options: Any decimal number
-    EXPERIENCE_BOTTLE: 15.0
+    EXPERIENCE_BOTTLE: 8497.0
     # The decimal value for Fire Charge. Available options: Any decimal number
-    FIRE_CHARGE: 7.5
+    FIRE_CHARGE: 2603.11
     # The decimal value for Wind Charge. Available options: Any decimal number
     WIND_CHARGE: 3.0
     # The decimal value for Breeze Rod. Available options: Any decimal number
@@ -2710,37 +2710,37 @@ TYPE:
     # The decimal value for Mace. Available options: Any decimal number
     MACE: 15000.0
     # The decimal value for Item Frame. Available options: Any decimal number
-    ITEM_FRAME: 3.0
+    ITEM_FRAME: 29950.0
     # The decimal value for Flower Pot. Available options: Any decimal number
-    FLOWER_POT: 2.0
+    FLOWER_POT: 74500.0
     # The decimal value for Map. Available options: Any decimal number
-    MAP: 15.0
+    MAP: 22400.0
     # The decimal value for Golden Carrot. Available options: Any decimal number
-    GOLDEN_CARROT: 7.5
+    GOLDEN_CARROT: 2749.33
     # The decimal value for Skeleton Skull. Available options: Any decimal number
-    SKELETON_SKULL: 1000.0
+    SKELETON_SKULL: 447500.0
     # The decimal value for Wither Skeleton Skull. Available options: Any decimal number
-    WITHER_SKELETON_SKULL: 1000.0
+    WITHER_SKELETON_SKULL: 60599.5
     # The decimal value for Zombie Head. Available options: Any decimal number
-    ZOMBIE_HEAD: 1000.0
+    ZOMBIE_HEAD: 682000.0
     # The decimal value for Creeper Head. Available options: Any decimal number
-    CREEPER_HEAD: 1000.0
+    CREEPER_HEAD: 464500.0
     # The decimal value for Dragon Head. Available options: Any decimal number
-    DRAGON_HEAD: 1000.0
+    DRAGON_HEAD: 54750000.0
     # The decimal value for Piglin Head. Available options: Any decimal number
     PIGLIN_HEAD: 1000.0
     # The decimal value for Nether Star. Available options: Any decimal number
-    NETHER_STAR: 7500.0
+    NETHER_STAR: 202450.0
     # The decimal value for Pumpkin Pie. Available options: Any decimal number
-    PUMPKIN_PIE: 12.0
+    PUMPKIN_PIE: 102343.75
     # The decimal value for Firework Star. Available options: Any decimal number
     FIREWORK_STAR: 4.0
     # The decimal value for Nether Brick. Available options: Any decimal number
-    NETHER_BRICK: 4.0
+    NETHER_BRICK: 500820.31
     # The decimal value for Rabbit Stew. Available options: Any decimal number
-    RABBIT_STEW: 4.5
+    RABBIT_STEW: 69500.0
     # The decimal value for Rabbit Foot. Available options: Any decimal number
-    RABBIT_FOOT: 3.0
+    RABBIT_FOOT: 58333.33
     # The decimal value for White Banner. Available options: Any decimal number
     WHITE_BANNER: 50.0
     # The decimal value for Orange Banner. Available options: Any decimal number
@@ -2774,15 +2774,15 @@ TYPE:
     # The decimal value for Black Banner. Available options: Any decimal number
     BLACK_BANNER: 50.0
     # The decimal value for End Crystal. Available options: Any decimal number
-    END_CRYSTAL: 50.0
+    END_CRYSTAL: 30500.0
     # The decimal value for Popped Chorus Fruit. Available options: Any decimal number
-    POPPED_CHORUS_FRUIT: 6.0
+    POPPED_CHORUS_FRUIT: 2187.78
     # The decimal value for Beetroot Soup. Available options: Any decimal number
-    BEETROOT_SOUP: 2.0
+    BEETROOT_SOUP: 275000.0
     # The decimal value for Spectral Arrow. Available options: Any decimal number
-    SPECTRAL_ARROW: 12.0
+    SPECTRAL_ARROW: 7632.42
     # The decimal value for Shield. Available options: Any decimal number
-    SHIELD: 7.5
+    SHIELD: 9995.0
     # The decimal value for Music Disc 13. Available options: Any decimal number
     MUSIC_DISC_13: 75.0
     # The decimal value for Music Disc Cat. Available options: Any decimal number
@@ -2892,21 +2892,21 @@ TYPE:
     # The decimal value for Resin Brick Wall. Available options: Any decimal number
     RESIN_BRICK_WALL: 4.0
     # The decimal value for Blackstone Slab. Available options: Any decimal number
-    BLACKSTONE_SLAB: 4.0
+    BLACKSTONE_SLAB: 5078.12
     # The decimal value for Blackstone Stairs. Available options: Any decimal number
     BLACKSTONE_STAIRS: 4.0
     # The decimal value for Gilded Blackstone. Available options: Any decimal number
-    GILDED_BLACKSTONE: 4.0
+    GILDED_BLACKSTONE: 2150000.0
     # The decimal value for Polished Blackstone. Available options: Any decimal number
-    POLISHED_BLACKSTONE: 4.0
+    POLISHED_BLACKSTONE: 4140.62
     # The decimal value for Polished Blackstone Slab. Available options: Any decimal number
-    POLISHED_BLACKSTONE_SLAB: 4.0
+    POLISHED_BLACKSTONE_SLAB: 21562.5
     # The decimal value for Polished Blackstone Stairs. Available options: Any decimal number
     POLISHED_BLACKSTONE_STAIRS: 4.0
     # The decimal value for Chiseled Polished Blackstone. Available options: Any decimal number
     CHISELED_POLISHED_BLACKSTONE: 4.0
     # The decimal value for Polished Blackstone Bricks. Available options: Any decimal number
-    POLISHED_BLACKSTONE_BRICKS: 4.0
+    POLISHED_BLACKSTONE_BRICKS: 3476.56
     # The decimal value for Polished Blackstone Brick Slab. Available options: Any decimal number
     POLISHED_BLACKSTONE_BRICK_SLAB: 4.0
     # The decimal value for Polished Blackstone Brick Stairs. Available options: Any decimal number
@@ -3020,7 +3020,7 @@ TYPE:
     # The decimal value for Bordure Indented Banner Pattern. Available options: Any decimal number
     BORDURE_INDENTED_BANNER_PATTERN: 20.0
     # The decimal value for Bowl. Available options: Any decimal number
-    BOWL: 1.0
+    BOWL: 2595.83
     # The decimal value for Brick Wall. Available options: Any decimal number
     BRICK_WALL: 4.0
     # The decimal value for Brown Bundle. Available options: Any decimal number
@@ -3028,7 +3028,7 @@ TYPE:
     # The decimal value for Brown Egg. Available options: Any decimal number
     BROWN_EGG: 3.0
     # The decimal value for Brown Mushroom Block. Available options: Any decimal number
-    BROWN_MUSHROOM_BLOCK: 2.0
+    BROWN_MUSHROOM_BLOCK: 2349.38
     # The decimal value for Bundle. Available options: Any decimal number
     BUNDLE: 25.0
     # The decimal value for Cherry Shelf. Available options: Any decimal number
@@ -3056,7 +3056,7 @@ TYPE:
     # The decimal value for Cobbled Deepslate Wall. Available options: Any decimal number
     COBBLED_DEEPSLATE_WALL: 4.0
     # The decimal value for Cobblestone Wall. Available options: Any decimal number
-    COBBLESTONE_WALL: 4.0
+    COBBLESTONE_WALL: 1718.75
     # The decimal value for Copper Bars. Available options: Any decimal number
     COPPER_BARS: 3.0
     # The decimal value for Copper Bulb. Available options: Any decimal number
@@ -3092,7 +3092,7 @@ TYPE:
     # The decimal value for Dirt Path. Available options: Any decimal number
     DIRT_PATH: 4.0
     # The decimal value for Dragon Breath. Available options: Any decimal number
-    DRAGON_BREATH: 80.0
+    DRAGON_BREATH: 82500.0
     # The decimal value for Dried Ghast. Available options: Any decimal number
     DRIED_GHAST: 40.0
     # The decimal value for End Stone Brick Wall. Available options: Any decimal number
@@ -3118,7 +3118,7 @@ TYPE:
     # The decimal value for Field Masoned Banner Pattern. Available options: Any decimal number
     FIELD_MASONED_BANNER_PATTERN: 20.0
     # The decimal value for Furnace Minecart. Available options: Any decimal number
-    FURNACE_MINECART: 30.0
+    FURNACE_MINECART: 7525000.0
     # The decimal value for Glow Item Frame. Available options: Any decimal number
     GLOW_ITEM_FRAME: 6.0
     # The decimal value for Granite Wall. Available options: Any decimal number
@@ -3142,13 +3142,13 @@ TYPE:
     # The decimal value for Mangrove Shelf. Available options: Any decimal number
     MANGROVE_SHELF: 12.0
     # The decimal value for Mossy Cobblestone Wall. Available options: Any decimal number
-    MOSSY_COBBLESTONE_WALL: 4.0
+    MOSSY_COBBLESTONE_WALL: 7796.88
     # The decimal value for Mossy Stone Brick Wall. Available options: Any decimal number
     MOSSY_STONE_BRICK_WALL: 4.0
     # The decimal value for Mud Brick Wall. Available options: Any decimal number
     MUD_BRICK_WALL: 4.0
     # The decimal value for Mushroom Stew. Available options: Any decimal number
-    MUSHROOM_STEW: 4.5
+    MUSHROOM_STEW: 265000.0
     # The decimal value for Music Disc Bounce. Available options: Any decimal number
     MUSIC_DISC_BOUNCE: 75.0
     # The decimal value for Music Disc Lava Chicken. Available options: Any decimal number
@@ -3244,7 +3244,7 @@ TYPE:
     # The decimal value for Red Bundle. Available options: Any decimal number
     RED_BUNDLE: 25.0
     # The decimal value for Red Mushroom Block. Available options: Any decimal number
-    RED_MUSHROOM_BLOCK: 2.0
+    RED_MUSHROOM_BLOCK: 2587.09
     # The decimal value for Red Nether Brick Wall. Available options: Any decimal number
     RED_NETHER_BRICK_WALL: 4.0
     # The decimal value for Red Sandstone Wall. Available options: Any decimal number
