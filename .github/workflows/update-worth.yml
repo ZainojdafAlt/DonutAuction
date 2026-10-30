@@ -3,7 +3,7 @@
 #   worth.yml          <- your config
 #   update_worth.py    <- the script
 #
-# Prices come from donutstats.net (lowest live listing per single item).
+# Prices come from donut.build (lowest listing per single item). Credit them if you share results.
 
 name: Update worth.yml prices
 
@@ -13,7 +13,7 @@ on:
   workflow_dispatch:           # manual run button in the Actions tab
     inputs:
       limit:
-        description: "Only price the first N items (0 = all). Use ~20 to test."
+        description: "Test mode: only fetch the first N/24 pages (0 = everything). Use 24 to test."
         default: "0"
       dry_run:
         description: "Dry run (don't change or commit worth.yml)"
@@ -30,7 +30,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
