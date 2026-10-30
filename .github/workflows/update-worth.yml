@@ -1,0 +1,71 @@
+# Save this file in your repo as: .github/workflows/update-worth.yml
+# Repo layout expected:
+#   worth.yml          <- your config
+#   update_worth.py    <- the script
+#
+# Prices come from donutstats.net (lowest live listing per single item).
+
+name: Update worth.yml prices
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"        # every Monday 06:00 UTC
+  workflow_dispatch:           # manual run button in the Actions tab
+    inputs:
+      limit:
+        description: "Only price the first N items (0 = all). Use ~20 to test."
+        default: "0"
+      dry_run:
+        description: "Dry run (don't change or commit worth.yml)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-worth
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Fetch prices and update worth.yml
+        env:
+          LIMIT: ${{ github.event.inputs.limit || '0' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          ARGS="worth.yml --refresh"
+          if [ "$LIMIT" != "0" ]; then ARGS="$ARGS --limit $LIMIT"; fi
+          if [ "$DRY_RUN" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python update_worth.py $ARGS
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: worth-report
+          path: worth_report.csv
+
+      - name: Commit updated prices
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add worth.yml worth_report.csv
+          if git diff --cached --quiet; then
+            echo "No price changes."
+          else
+            git commit -m "Update item prices ($(date -u +%Y-%m-%d))"
+            git push
+          fi
