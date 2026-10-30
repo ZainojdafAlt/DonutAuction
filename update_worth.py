@@ -1,97 +1,103 @@
 #!/usr/bin/env python3
 """
-Update worth.yml with the LOWEST current DonutSMP auction price per unit,
-using donutstats.net item pages (https://www.donutstats.net/prices/<item_id>).
+Update worth.yml with the lowest current DonutSMP auction price per single
+item, read from donut.build's auction list (https://www.donut.build/auction).
 
-Price data source: donutstats.net (please keep attribution if you share results).
+Price data source: donut.build (please credit it if you share the results).
 
 How it works
-  * Reads every item key under TYPE: in worth.yml (ACACIA_LOG -> acacia_log).
-  * Skips any key containing SPAWNER (you said you'd handle those yourself).
-  * Fetches each item's page, reads the "Cheapest live ... listings" section,
-    and takes the lowest (listing price / stack size) = lowest price per unit.
-  * Rewrites ONLY the numeric values, line by line, so comments and layout
-    stay exactly as they were. Items with no live listing / no page keep the
-    old value and are listed in the report.
-  * Progress is cached in price_cache.json, so you can stop (Ctrl+C) and
-    re-run to resume without re-fetching.
+  * Walks the paginated list (?page=1, 2, 3, ... ~24 items per page, about
+    60 requests total) until a page has no items.
+  * For every item, price = the per-unit price shown on the card. When the
+    card also shows a 64x price, that is divided by 64 for extra precision
+    (cheap items are rounded to whole dollars on the card).
+  * Only items already in your worth.yml TYPE section are changed, matched by
+    ID (IRON_NUGGET <-> iron_nugget). Anything containing SPAWNER is skipped.
+  * Items not found on the site keep their old value and are listed in
+    worth_report.csv (status "not_listed").
+  * Only the numbers are rewritten, line by line - comments and layout stay.
 
 Usage
   pip install requests beautifulsoup4
-  python update_worth.py worth.yml --limit 20 --dry-run     # quick test first
-  python update_worth.py worth.yml                          # full run (~3-4 min)
-  python update_worth.py worth.yml --refresh                # ignore cache
+  python update_worth.py worth.yml --limit 24 --dry-run   # quick test, changes nothing
+  python update_worth.py worth.yml                        # full run (~1-2 min)
+
+Flags kept for the GitHub workflow: --refresh (ignored), --limit N (test mode:
+only fetch the first N/24 pages), --dry-run.
 """
 import argparse
 import csv
-import json
 import re
 import shutil
 import sys
-import threading
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
 
-BASE_URL = "https://www.donutstats.net/prices/"
-UA = "worth-yml-updater/1.0 (personal use; prices from donutstats.net)"
+BASE_URL = "https://www.donut.build/auction"
+UA = "worth-yml-updater/2.0 (personal use; prices from donut.build)"
+PER_PAGE = 24
 MULT = {"": 1, "K": 1e3, "M": 1e6, "B": 1e9, "T": 1e12}
 
-# "x1 - sold by modernmeistro $200K"  (after whitespace is collapsed)
-LISTING_RE = re.compile(
-    r"x\s*([\d,]+)\s*-\s*sold by\s+\S+\s+\$\s*([\d.,]+)\s*([KMBT]?)", re.I
-)
 KEY_LINE_RE = re.compile(r"^(\s{4})([A-Z0-9_]+):\s*([0-9.eE+-]+)\s*$")
+# "Iron Nugget $1,228(64× $78,611) -73.0% 7 days"
+CARD_RE = re.compile(
+    r"\$\s*([\d,]+(?:\.\d+)?)\s*([KMBT]?)\s*"
+    r"(?:\(\s*(\d+)\s*[×xX]\s*\$\s*([\d,]+(?:\.\d+)?)\s*([KMBT]?)\s*\))?",
+)
+ID_RE = re.compile(r"/items/([a-z0-9_]+)")
+LAST_ERROR = {"msg": ""}
 
 
-def parse_money(num: str, suffix: str) -> float:
+def money(num: str, suffix: str) -> float:
     return float(num.replace(",", "")) * MULT[suffix.upper()]
 
 
-def lowest_unit_price(html: str):
-    """Return the lowest per-unit live listing price, or None."""
-    text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
-    text = re.sub(r"\s+", " ", text)
-    start = re.search(r"Cheapest live .*? listings", text, re.I)
-    if not start:
-        return None
-    section = text[start.end():]
-    end = re.search(r"Recent .*? sales|More DonutSMP item prices", section, re.I)
-    if end:
-        section = section[: end.start()]
-    best = None
-    for qty, num, suf in LISTING_RE.findall(section):
-        qty = int(qty.replace(",", ""))
-        if qty <= 0:
+def parse_cards(html: str) -> dict:
+    """Return {item_id: price_per_unit} found on one page."""
+    soup = BeautifulSoup(html, "html.parser")
+    out = {}
+    for a in soup.find_all("a", href=True):
+        m = ID_RE.search(a["href"])
+        if not m:
             continue
-        unit = parse_money(num, suf) / qty
-        if best is None or unit < best:
-            best = unit
-    return best
+        text = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
+        c = CARD_RE.search(text)
+        if not c:
+            continue
+        unit = money(c.group(1), c.group(2))
+        if c.group(3) and c.group(4):  # stack price / stack size = more precise
+            qty = int(c.group(3))
+            if qty > 0:
+                unit = money(c.group(4), c.group(5)) / qty
+        item = m.group(1)
+        if item not in out or unit < out[item]:
+            out[item] = unit
+    return out
 
 
-def fetch(session, item_id, base_url, retries=3):
-    url = f"{base_url}{item_id}"
+def get_page(session, base_url, page, retries=3):
     for attempt in range(retries):
         try:
-            r = session.get(url, timeout=20)
-            if r.status_code == 404:
-                return "404"
+            r = session.get(base_url, params={"page": page}, timeout=25)
             if r.status_code == 429:
+                LAST_ERROR["msg"] = f"HTTP 429 (too many requests) on page {page}"
                 time.sleep(10 * (attempt + 1))
                 continue
-            r.raise_for_status()
-            return r.text
-        except requests.RequestException:
+            if r.status_code >= 400:
+                LAST_ERROR["msg"] = f"HTTP {r.status_code} on page {page}"
+                time.sleep(2 * (attempt + 1))
+                continue
+            return r.content.decode("utf-8", errors="replace")
+        except requests.RequestException as e:
+            LAST_ERROR["msg"] = f"{type(e).__name__}: {e}"
             time.sleep(2 * (attempt + 1))
     return None
 
 
 def fmt(v: float) -> str:
-    # keep the file's "51.0" style; avoid scientific notation
     if v >= 1:
         s = f"{v:.2f}".rstrip("0")
         return s + "0" if s.endswith(".") else s
@@ -102,95 +108,65 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("worth_yml")
     ap.add_argument("--base-url", default=BASE_URL)
-    ap.add_argument("--rps", type=float, default=8.0, help="max requests per second (all workers combined)")
-    ap.add_argument("--workers", type=int, default=8, help="parallel downloads")
-    ap.add_argument("--limit", type=int, default=0, help="only first N items (testing)")
-    ap.add_argument("--dry-run", action="store_true", help="don't write worth.yml")
-    ap.add_argument("--refresh", action="store_true", help="ignore the cache")
-    ap.add_argument("--cache", default="price_cache.json")
+    ap.add_argument("--delay", type=float, default=1.0, help="seconds between page requests")
+    ap.add_argument("--limit", type=int, default=0, help="test mode: only fetch first N/24 pages")
+    ap.add_argument("--max-pages", type=int, default=200, help="safety stop")
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--refresh", action="store_true", help="(ignored, kept for compatibility)")
     args = ap.parse_args()
 
     path = Path(args.worth_yml)
     lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
 
-    # locate the TYPE: section
     in_type, targets = False, []
     for i, line in enumerate(lines):
         if re.match(r"^TYPE:\s*$", line):
             in_type = True
             continue
-        if in_type and re.match(r"^[A-Za-z]", line):  # next top-level key
+        if in_type and re.match(r"^[A-Za-z]", line):
             break
         if in_type:
             m = KEY_LINE_RE.match(line.rstrip("\n"))
-            if m:
+            if m and "SPAWNER" not in m.group(2):
                 targets.append((i, m.group(2), float(m.group(3))))
+    print(f"{len(targets)} items in worth.yml (spawners skipped).")
 
-    targets = [t for t in targets if "SPAWNER" not in t[1]]
+    max_pages = args.max_pages
     if args.limit:
-        targets = targets[: args.limit]
-    print(f"{len(targets)} items to price (spawners skipped).")
+        max_pages = min(max_pages, args.limit // PER_PAGE + 1)
 
-    cache_path = Path(args.cache)
-    cache = {}
-    if cache_path.exists() and not args.refresh:
-        cache = json.loads(cache_path.read_text())
-
-    lock = threading.Lock()
-    gate = threading.Lock()
-    next_slot = [time.monotonic()]
-    local = threading.local()
-
-    def throttle():
-        with gate:
-            now = time.monotonic()
-            wait = next_slot[0] - now
-            next_slot[0] = max(now, next_slot[0]) + 1.0 / args.rps
-        if wait > 0:
-            time.sleep(wait)
-
-    def work(key):
-        if not hasattr(local, "s"):
-            local.s = requests.Session()
-            local.s.headers["User-Agent"] = UA
-        throttle()
-        html = fetch(local.s, key.lower(), args.base_url)
-        if html == "404":
-            return key, {"status": "no_page"}
+    session = requests.Session()
+    session.headers["User-Agent"] = UA
+    prices, empty_streak = {}, 0
+    for page in range(1, max_pages + 1):
+        html = get_page(session, args.base_url, page)
         if html is None:
-            return key, None
-        price = lowest_unit_price(html)
-        return key, ({"status": "ok", "price": price} if price is not None
-                     else {"status": "no_listings"})
+            if page == 1:
+                print(f"STOPPED: could not load page 1 - {LAST_ERROR['msg']}")
+                print("The site may be blocking this machine/network. Nothing was changed.")
+                sys.exit(1)
+            print(f"  page {page}: FAILED - {LAST_ERROR['msg']} (stopping here)")
+            break
+        found = parse_cards(html)
+        if not found:
+            empty_streak += 1
+            if page == 1:
+                print("STOPPED: page 1 loaded but no items were recognised, so the page "
+                      "layout isn't what this script expects. Nothing was changed.")
+                sys.exit(1)
+            if empty_streak >= 1:
+                print(f"  page {page}: no items - reached the end.")
+                break
+        for k, v in found.items():
+            if k not in prices or v < prices[k]:
+                prices[k] = v
+        print(f"[page {page}] {len(found)} items ({len(prices)} total)")
+        time.sleep(args.delay)
 
-    todo = [k for _, k, _ in targets if k not in cache]
-    done = 0
-    t0 = time.time()
-    try:
-        with ThreadPoolExecutor(max_workers=args.workers) as ex:
-            futs = [ex.submit(work, k) for k in todo]
-            for fut in as_completed(futs):
-                key, res = fut.result()
-                done += 1
-                if res is None:
-                    print(f"  {key}: network error, will retry next run")
-                else:
-                    with lock:
-                        cache[key] = res
-                if done % 50 == 0 or done == len(todo):
-                    cache_path.write_text(json.dumps(cache))
-                    print(f"[{done}/{len(todo)}] {time.time()-t0:.0f}s elapsed")
-    except KeyboardInterrupt:
-        print("\nInterrupted - progress saved, re-run to resume.")
-    finally:
-        cache_path.write_text(json.dumps(cache))
-
-    # apply
     changed, report = 0, []
     for i, key, old in targets:
-        c = cache.get(key)
-        if c and c.get("status") == "ok":
-            new = c["price"]
+        new = prices.get(key.lower())
+        if new is not None:
             lines[i] = KEY_LINE_RE.sub(
                 lambda m: f"{m.group(1)}{m.group(2)}: {fmt(new)}",
                 lines[i].rstrip("\n"),
@@ -198,7 +174,7 @@ def main():
             report.append((key, old, new, "updated"))
             changed += 1
         else:
-            report.append((key, old, old, (c or {}).get("status", "not_fetched")))
+            report.append((key, old, old, "not_listed"))
 
     with open("worth_report.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -206,12 +182,12 @@ def main():
         w.writerows(report)
 
     if args.dry_run:
-        print(f"Dry run: {changed} would change. See worth_report.csv")
+        print(f"Dry run: {changed} would change, {len(targets)-changed} not listed. "
+              "See worth_report.csv")
         return
     shutil.copy(path, path.with_suffix(".yml.bak"))
     path.write_text("".join(lines), encoding="utf-8")
-    kept = len(targets) - changed
-    print(f"Updated {changed} items, kept old value for {kept}. "
+    print(f"Updated {changed} items, kept old value for {len(targets)-changed}. "
           f"Backup: {path.with_suffix('.yml.bak')}  Report: worth_report.csv")
 
 
